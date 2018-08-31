@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="1665.7 265.7 36.8 7.7" enable-background="new 1665.7 265.7 36.8 7.7" xml:space="preserve" width="36.79999923706055" height="7.699999809265137">
+<g id="bg">
+</g>
+<g id="flag">
+</g>
+<g id="back">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1683.0647" y1="269.554" x2="1702.5106" y2="269.554">
+			<stop offset="0" style="stop-color:#F5FFFD"/>
+			<stop offset="1" style="stop-color:#F6FFFF"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_1_)" points="1702.5,269.2 1695.7,265.7 1683.1,273.4 1695.7,269   "/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1665.7324" y1="269.554" x2="1688.3484" y2="269.554">
+			<stop offset="0" style="stop-color:#F5FFFD"/>
+			<stop offset="1" style="stop-color:#F6FFFF"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_2_)" points="1665.7,272.6 1675.5,265.7 1684.9,269 1688.3,270.2 1683.1,273.4 1677.5,268.5   "/>
+		<polygon fill="#96AAB0" points="1683.1,273.4 1686.1,272.3 1677.5,268.5   "/>
+	</g>
+</g>
+<g id="front_mountain">
+</g>
+<g id="infographic">
+</g>
+<g id="fler">
+</g>
+<g id="deer">
+</g>
+</svg>

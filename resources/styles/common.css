@@ -1,0 +1,675 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family:"Microsoft YaHei","华文细黑","fantasy";
+    overflow:hidden;
+    outline: none;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div,ul.ol,dl,li {
+    outline: none;
+    box-sizing: border-box;
+}
+
+select {
+    border-radius: 0;
+}
+
+/*==============================遮罩==================================*/
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1000;
+    opacity: 0.55;
+    filter:alpha(opacity=55);
+    background-color: #ccc;
+}
+
+/*====================滚动条============================*/
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.logic-list::-webkit-scrollbar,
+.choose-replaceFont::-webkit-scrollbar,/*无匹配字体滚动条*/
+.group-select::-webkit-scrollbar,
+.show-frame-list ul::-webkit-scrollbar,
+.template-container::-webkit-scrollbar,
+.show-row-color::-webkit-scrollbar,
+.music-list ul::-webkit-scrollbar,
+.svg-list::-webkit-scrollbar,
+.animation-time::-webkit-scrollbar,
+.system-list::-webkit-scrollbar,
+.version-content div::-webkit-scrollbar,
+.setting-cont::-webkit-scrollbar,
+#remark_text::-webkit-scrollbar{
+    width: 4px;
+    height: 16px;
+    background-color: transparent;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.logic-list::-webkit-scrollbar-track,
+.choose-replaceFont::-webkit-scrollbar-track,
+.group-select::-webkit-scrollbar-track,
+.show-frame-list ul::-webkit-scrollbar-track,
+.template-container::-webkit-scrollbar-track,
+.show-row-color::-webkit-scrollbar-track,
+.music-list ul::-webkit-scrollbar-track,
+.svg-list::-webkit-scrollbar-track,
+.animation-time::-webkit-scrollbar-track,
+.system-list::-webkit-scrollbar-track,
+.version-content div::-webkit-scrollbar-track,
+.setting-cont::-webkit-scrollbar-track,
+#remark_text::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+/*定义滑块 内阴影+圆角*/
+.logic-list::-webkit-scrollbar-thumb,
+.choose-replaceFont::-webkit-scrollbar-thumb,
+.group-select::-webkit-scrollbar-thumb,
+.show-frame-list ul::-webkit-scrollbar-thumb,
+.template-container::-webkit-scrollbar-thumb,
+.show-row-color::-webkit-scrollbar-thumb,
+.music-list ul::-webkit-scrollbar-thumb,
+.svg-list::-webkit-scrollbar-thumb,
+.animation-time::-webkit-scrollbar-thumb,
+.system-list::-webkit-scrollbar-thumb,/*=弹框系统字体滚动条=*/
+.version-content div::-webkit-scrollbar-thumb,/*=版本更新滚动条=*/
+.setting-cont::-webkit-scrollbar-thumb/*=调整帧步序=*/
+{
+    background-color: #cfcfcf;
+}
+
+#remark_text::-webkit-scrollbar-thumb{/*===分屏页的备注==*/
+    background-color: #999;
+}
+
+.shadow-z-1 {
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.shadow-z-1-hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.shadow-z-2 {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(41, 43, 43, 0.1);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(41, 43, 43, 0.1);
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+.shadow-z-Bomb {
+    -webkit-box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 066), 0 10px 30px 0 rgba(0, 0, 0, 066);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.066), 0 10px 30px 0 rgba(0, 0, 0, 0.066);
+}
+
+.hide {
+    display: none !important;
+}
+
+a,a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.font-size10{
+    font-size:10px;
+    -webkit-transform:scale(0.8);
+}
+.font-size5{
+    font-size:5px;
+    -webkit-transform:scale(0.6);
+}
+.font-size-normal {
+    font-size: 12px;
+}
+
+.font-size-middle {
+    font-size: 14px;
+}
+
+.Icon-fontSize {
+    font-size: 17px;
+}
+
+.font-size16 {
+    font-size: 16px;
+}
+
+.font-size18 {
+    font-size: 18px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+.font-size32 {
+    font-size: 32px;
+}
+
+.font-size30 {
+    font-size: 30px;
+}
+
+.font-size36 {
+    font-size: 36px;
+}
+.font-size38{
+    font-size:38px;
+}
+.font-size28{
+     font-size:28px;
+ }
+.font-size50{
+    font-size:50px;
+}
+.white {
+    color: #fff;
+}
+
+.font-size10{
+    -webkit-text-size-adjust: none;
+    font-size: 10px;
+}
+
+.gray {
+    color: #cccccc;
+}
+
+.dark-gray {
+    color: #666;
+}
+
+.dark-normal-gray {
+    color: #333;
+}
+
+.dark-blank {
+    color: #474747;
+}
+
+.blank {
+    color: #000;
+}
+
+.light-gray {
+    color: #999;
+}
+
+.icon-color {
+    color: #4a4a4a;
+}
+
+.normal-gray {
+    color: #a8a8a8;
+}
+
+.audit-color {
+    color: #bfbfbf;
+}
+
+.light-audit {
+    color: #0e87ed;
+}
+
+.p_relative {
+    position: relative;
+}
+
+.p_absolute {
+    position: absolute;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.block {
+    display: block;
+}
+
+.border-radius {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.text-hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.border-dashed {
+    border: 1px dashed #c9c9c9;
+}
+
+.cur-move {
+    cursor: move;
+}
+
+.home-set {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+
+/*========================间距=============================*/
+
+.margin-right10 {
+    margin-right: 10px;
+}
+
+.margin-right5 {
+    margin-right: 5px;
+}
+
+.padding-right20 {
+    padding-right: 20px;
+}
+
+.mrg-left11 {
+    margin-left: 11px;
+}
+
+.mrg-left33 {
+    margin-left: 33px;
+}
+
+.mrg-right8 {
+    margin-right: 8px;
+}
+
+.mrg-right12 {
+    margin-right: 12px;
+}
+
+.mrg-left12 {
+    margin-left: 12px;
+}
+
+.mrg-right10 {
+    margin-right: 10px;
+}
+
+.mrg-left15 {
+    margin-left: 15px;
+}
+
+.margin-top15 {
+    margin-top: 15px;
+}
+
+.padding-top10 {
+     padding-top: 10px;
+ }
+.padding-top15 {
+    padding-top: 15px;
+}
+.padding-bottom10 {
+    padding-bottom: 10px;
+}
+
+.pop-btn-bottom{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.light-primary {
+    background-color: #0080ed;
+}
+
+/*============公共进度条===============*/
+
+.impression {
+    height: 6px;
+    background-color: #c7c7c7;
+}
+
+.common-schedule {
+    height: 6px;
+    background-color: #0080ed;
+}
+
+.voice-schedule {
+    top: -2px;
+    left: -6px;
+    display: inline-block;
+    width: 99px;
+}
+
+.voice-line {
+    top: 0;
+    width: 100%;
+}
+
+.drag-audit {
+    left: 100%;
+    top: -4px;
+    cursor: pointer;
+    display: block;
+    width: 6px;
+    height: 12px;
+    background-color: #fefefe;
+    -webkit-box-shadow: 1px 2px 2px #666;
+    box-shadow: 1px 2px 7px #666;
+}
+
+
+.alpha-line b {
+    position: absolute;
+    top: -4px ;
+}
+
+.outline_none {
+    outline: none;
+}
+
+/*==========================loading加载==================================*/
+.load-more {
+    left: 50%;
+    bottom: 2%;
+    z-index: 2000;
+}
+
+.load-more.bigger {
+    width: 138px;
+    height: 38px;
+    line-height: 38px;
+    top: 50%;
+    margin-top: -19px;
+    margin-left: -69px;
+    background-color: #4a4a4a;
+    border-radius: 2px;
+}
+
+.home {
+    margin-left: 17px;
+}
+
+.bigger p {
+    line-height: 38px;
+}
+
+.ball-pulse > div {
+    background-color: #666;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block; }
+
+.home.ball-pulse > div {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+}
+
+.ball-pulse > div:nth-child(0) {
+    -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(1) {
+    -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(2) {
+    -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(3) {
+    -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+    animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7; }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; } }
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
+
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7; }
+
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; } }
+
+
+/*=======================右侧编辑部分===============================*/
+
+div.greenBorder.homeEdit {
+    top: 40%;
+    right: 1%;
+    z-index: 99;
+}
+
+div.greenBorder {
+    position: relative;
+    top: -38%;
+    width: 30px;
+    float:right;
+    margin-right:0;
+    /*height:129px;*/
+}
+
+div.greenBorder ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+div.greenBorder ul li a {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-color:rgba(41,47,52,0.8);
+}
+
+div.greenBorder ul li a:hover {
+    background-color: #666 ;
+}
+
+/*=====================分割线=======================*/
+
+.portrait-line {
+    padding: 0;
+    margin: 0;
+    border-color: #000;
+    height: 1px;
+    border-bottom: 1px solid #000;
+    box-shadow: -1px 1px 1px #545454;
+    box-sizing: border-box;
+}
+
+.prt-line {
+    padding: 0;
+    margin: 0;
+    border-color: #000;
+    height: 1px;
+    border-right: 1px solid #000;
+    box-shadow: -1px 1px 1px #6f6f6f;
+    box-sizing: border-box;
+}
+
+/*===============动画列表里面的动画效果   淡入淡出=====================*/
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*=====================淡出====================*/
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*============鼠标放大缩小的鼠标样式=================*/
+
+.mouse-big {
+    cursor: url("../img/big.cur"),pointer;
+}
+
+.mouse-small {
+    cursor: url("../img/small.cur"),pointer;
+}
+/*=================鼠标隐藏的样式===================*/
+.mouse-hide {
+    cursor:none;
+}
+
+/*==================主页帧选择时的动画====================*/
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated2 {
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+/*==============================弹框页公用的按钮=======================================*/
+
+.common-btn {
+    height: 68px;
+    right: 26px;
+    position: absolute;
+    bottom: 0;
+}
+
+.introduce-template.VIP-mark .tmp-price b,
+.template-container.VIP-mark .template-card .tmp-price b {
+    text-decoration: line-through;
+}
+
+.middle-1 {
+    vertical-align: -1px;
+}
+
+.mrg-auto {
+    margin: 0 auto;
+}

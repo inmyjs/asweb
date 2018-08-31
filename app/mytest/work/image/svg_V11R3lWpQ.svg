@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="width:308px;height:308px;" version="1.1" id="图形" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+  <path class="svgpath" data-index="path_0" fill="#272636" d="M704 160 336 160c-17.6 0-32 14.4-32 32l0 224c0 17.6 14.4 32 32 32l368 0c17.6 0 32-14.4 32-32L736 192C736 174.4 721.6 160 704 160zM704 392c0 12.8-11.2 24-24 24l-320 0c-12.8 0-24-11.2-24-24l0-176c0-12.8 11.2-24 24-24l320 0c12.8 0 24 11.2 24 24L704 392z" />
+<path class="svgpath" data-index="path_1" fill="#272636" d="M880 416l-112 0c-17.6 0-32 14.4-32 32l0 129.6c0-9.6-8-17.6-17.6-17.6L321.6 560c-9.6 0-17.6 8-17.6 17.6L304 448c0-17.6-14.4-32-32-32l-112 0c-17.6 0-32 14.4-32 32l0 224 0 112c0 17.6 14.4 32 32 32l112 0 496 0 112 0c17.6 0 32-14.4 32-32l0-112L912 448C912 430.4 897.6 416 880 416zM736 640 736 640 736 640C736 640 736 640 736 640zM272 672l496 0 0-32L768 472c0-12.8 11.2-24 24-24l65.6 0c12.8 0 24 11.2 24 24L881.6 640l0 144L160 784l0-144L160 472c0-12.8 11.2-24 24-24l65.6 0c12.8 0 24 11.2 24 24" />
+<path class="svgpath" data-index="path_2" fill="#272636" d="M208 816l64 0 0 48-64 0 0-48Z" />
+<path class="svgpath" data-index="path_3" fill="#272636" d="M768 816l64 0 0 48-64 0 0-48Z" />
+
+</svg>

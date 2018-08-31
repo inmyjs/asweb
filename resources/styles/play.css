@@ -1,0 +1,653 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#outer {
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index:999;
+}
+
+#tip_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    padding: 14px 0 10px 0;
+    vertical-align: middle;
+    min-height: 24px;
+    line-height: inherit;
+    min-width: 220px;
+    height: 3%;
+    top: 50%;
+    margin-top: -20px;
+}
+
+
+@media only screen and (max-width:503px){
+    #tip_text {
+        font-size: 14px;
+    }
+}
+
+#middle {
+    position: absolute;
+    top: 38%;
+    right:10px;
+    z-index:999;
+}
+
+/*==================内容展示==============*/
+.wrap-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.canvas-content {
+    position:relative;
+    z-index:998;
+    width:100%;
+    height:100%;
+
+    margin:0 auto;
+    overflow: hidden;
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50%;
+}
+
+.mask-left {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:#000;
+}
+
+.mask-right {
+    position: absolute;
+    right:0px;
+    top:0px;
+    background-color:#000;
+}
+
+
+
+/*=====================播放器底部================================*/
+.slide-bottom {
+    width:100%;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    position:absolute;
+    bottom:0;
+    height:30px;
+    z-index:998;
+    display:table;
+    background-color: #ebebeb;
+}
+
+/*=======================左侧的喇叭===========================*/
+
+.voice {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    z-index:999;
+    display: table-cell;
+    width: 33%;
+}
+
+.voice a {
+    display:inline-block;
+    width:36px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.voice a:hover {
+    background-color: #d6d6d6;
+}
+
+.slide-list {
+    margin: 0 auto;
+    height: 30px;
+    display: table-cell;
+    width: 33%;
+}
+
+.slide-list ul {
+    margin:0 auto;
+    height: inherit;
+    width: 400px;
+}
+
+.slide-list ul li {
+    display: table-cell;
+    width: 200px;
+    height: inherit;
+    cursor:pointer;
+    text-align:center;
+}
+
+.slide-list ul li a {
+    display:block;
+    height: inherit;
+    line-height:30px;
+}
+
+.slide-list ul li a i {
+    font-size: 17px;
+}
+
+.slide-list ul li a:hover{
+    background-color: #d9d9d9;
+}
+
+.slide-list ul li a.disabled,
+.slide-list ul li a.disabled:hover{
+    background-color: transparent;
+}
+
+.slide-list ul li a.disabled i{
+    color: #bababa;
+}
+
+/*====================底側右面的css==================*/
+
+.slide-view {
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:999;
+    height: inherit;;
+    display: table-cell;
+    width: 33%;
+    line-height: 30px;
+}
+
+.slide-view > ol.pt-right {
+    position: absolute;
+    right:0px;
+}
+
+.slide-view ol > li {
+    float:left;
+    /*width: 36px;*/
+    height: inherit;
+    position: relative;
+    text-align:center;
+}
+
+.slide-view ol li > a {
+    display:inline-block;
+    width:36px;
+    height: inherit;
+}
+
+.slide-view ol > li a:hover {
+    background-color: #d6d6d6;
+}
+
+
+/*=================link提示框===============*/
+
+.hyperlink {
+    position: absolute;
+    z-index: 9999;
+    padding: 2px 3px;
+    max-width: 550px;
+    border: 1px solid #949494;
+    background:linear-gradient(#ebebeb,#e2e2e2);
+}
+
+/*===============================进度条============================*/
+.map-slider {
+    width:100%;
+    text-align: center;
+    position:absolute;
+    bottom:26px;
+    z-index:999;
+    left:0;
+    height:10px;
+    color: #866a62;
+}
+
+.map-slider .drag-line {
+    width:100%;
+    height: 6px;
+    background-color: #787a7c;
+    margin: 0 auto 25px auto;
+    position: relative;
+    z-index:99;
+}
+
+.map-slider .line {
+    height: 6px;
+    width: 0%;
+    background: #0080ed;
+    border-radius: 1px;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.drag-line b {
+    display: none;
+}
+
+.drag-line.drag-map b {
+    display: block;
+}
+
+.map-slider .draggable-button {
+    display: block;
+    width: 29px;
+    height: 26px;
+    left: -7px;
+    top: -10px;
+    cursor: pointer;
+    background: url("../img/draggable-button.png") no-repeat;
+}
+
+.schedule-dot {
+    display: block;
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    top: 1px;
+    border-radius: 50%;
+    z-index: 2000;
+}
+
+/*======================进度条上面的显示框=========================*/
+
+.slide-prompt {
+    position:absolute;
+    z-index:1000;
+    bottom:50px;
+    left: 500px;
+    display:block;
+    width: 155px;
+    height: 134px;
+    cursor:pointer;
+    background-color:#ebebeb;
+}
+
+.slide-prompt:before {
+    position: absolute;
+    bottom: -5px;
+    left: 73px;
+    display: inline-block;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ebebeb;
+    border-left: 5px solid transparent;
+    content: '';
+}
+
+.slide-prompt p {
+    text-align:center;
+    margin:0 auto;
+}
+
+.slide-prompt p img {
+    text-align:center;
+    margin:5px auto 0 auto;
+    display:block;
+    width: 144px;
+    height: 106px;
+}
+
+.slide-prompt h3 {
+    color:#000;
+    text-align:center;
+    font-size:12px;
+    font-weight: normal;
+    height:20px;
+    margin-top:2px;
+}
+
+
+.slide-prompt h3 s {
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+/*=====================================墨迹注释==================================*/
+
+.take-note {
+    position: absolute;
+    z-index: 9999;
+    right: 2%;
+    top: 70%;
+    border: 1px solid #414141;
+    background-color: #4a4a4a;
+}
+
+.brush {
+    display: inline-block;
+    background-color: #999999;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.small {
+    width: 6px;
+    height: 7px;
+    margin-top: 6px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+
+.middle {
+    width: 8px;
+    height: 9px;
+    margin-top: 4px;
+}
+
+.big {
+    width: 10px;
+    height: 11px;
+    margin-top: 3px;
+}
+
+.take-note ul li {
+    height: 32px;
+    padding: 0 1px;
+    float: left;
+}
+
+.take-note ul li.edit-color {
+    padding: 0 2px;
+}
+
+.take-note ul li.edit-color:before {
+    content: "\25bc";
+    position: absolute;
+    top: 6px;
+    right: -4px;
+    pointer-events: none;
+    color: #cfcfcf;
+    cursor: pointer;
+    width: 2em;
+    line-height: 1;
+    padding-top: 0.7em;
+    text-align: center;
+    -webkit-transform: scale(0.7, 0.5);
+    transform: scale(0.7, 0.5);
+    z-index: 99;
+}
+
+.take-note ul li b.border{
+    display: inline-block;
+    margin-top: 9px;
+    height: 18px;
+    width: 1px;
+    border-left: 1px solid #000000;
+    box-shadow: 1px 0px 2px #7f7f7f inset;
+}
+
+.take-note ul li a {
+    display: inline-block;
+    height: 18px;
+    padding: 1px 5px;
+    vertical-align: middle;
+    margin-top: 7px;
+    border: 1px solid transparent;
+}
+
+.take-note ul li.edit-color a {
+    padding: 1px 11px 1px 4px;
+}
+
+.take-note ul li a span.brush-show {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+}
+
+.take-note ul li a img {
+    margin-top: 2px;
+}
+
+.take-note ul li a.active,
+.take-note ul li a:hover {
+    border: 1px solid #000;
+    background: -webkit-linear-gradient(#6e6e6e,#666,#5d5d5d);
+    background: linear-gradient(#6e6e6e,#666,#5d5d5d);
+}
+
+.take-note ul li a.active i,
+.take-note ul li a:hover i {
+    color: #fff;
+}
+
+.note-color{
+    border-top: 1px solid #3b3b3b;
+    padding-left: 7px;
+}
+
+.note-color a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 1px;
+}
+
+.pen {
+    cursor: url("../img/pen.cur") 0 15,pointer;
+}
+
+.eraser {
+    cursor: url("../img/eraser.cur") 8 8,pointer;
+}
+
+/*====================================设置屏幕比例播放===================================*/
+
+.dropdown-menu {
+    padding: 10px 0;
+    background-color: #ffffff;
+    width: 106px;
+    bottom: 39px;
+    right: -24px;
+    z-index: 99;
+    -webkit-box-shadow: 1px 2px 2px #666;
+    box-shadow: 1px 2px 2px #666;
+}
+
+.dropdown-menu li {
+    height: 24px;
+    width: 106px;
+    text-align: center;
+    margin: 4px 0;
+}
+
+.slide-view ol li .dropdown-menu li >  a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    line-height: 24px;
+    position: relative;
+}
+
+.dropdown-menu li a span {
+    position: absolute;
+    left: 14px;
+    top: 2px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #dbdde0;
+}
+
+
+/*==========================sec提示===================================*/
+
+.sec-hint {
+    top: 40px;
+    left: 50%;
+    color: #fff;
+    margin-left: -119px;
+    width: 238px;
+    height: 48px;
+    z-index: 100;
+    line-height: 48px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.sec-hint span {
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+    border: 1px solid #fff;
+    line-height: 26px;
+    margin: 0 7px;
+    border-radius: 2px;
+}
+
+/*==========================录制时间=============================*/
+
+.transcribe {
+    position: absolute;
+    z-index: 9999;
+    width: 213px;
+    height: 55px;
+    background-color: #5f5e5e;
+    top: 5%;
+    left: 5%;
+}
+
+.transcribe-title {
+    height: 22px;
+    line-height: 22px;
+}
+
+.transcribe-title b {
+    font-weight: normal;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.transcribe-title span a{
+    float: right;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.transcribe-time {
+    height: 33px;
+    background: linear-gradient(#f0eeef, #e1e0e1,#d5d4d5);
+}
+
+.transcribe-time ul li {
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.transcribe-time ul li.transcribe-line {
+    background: url("../img/time-line.png") center right;
+    background-repeat: no-repeat;
+}
+
+.transcribe-time ul li:first-child,
+.transcribe-time ul li:nth-child(3){
+    width: 37px;
+    cursor: pointer;
+}
+
+.transcribe-time ul li:nth-child(2),
+.transcribe-time ul li:nth-child(4){
+    width: 66px;
+    cursor: default;
+}
+
+.back-time {
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+}
+
+#ratio img {
+    vertical-align: -3px;
+}
+
+
+.laser-dot {
+    position: absolute;
+    z-index:1000;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url("../img/laser.svg") no-repeat;
+    margin-left:-13px;
+    margin-top:-13px;
+}
+
+
+.exit-record {
+    width: 9px;
+    height: 8px;
+    vertical-align: 0px;
+}
+
+/*==========================字体图标===========================*/
+
+@font-face {font-family: "iconfont";
+    src: url('../fonts/iconfont.woff?t=1468899407') format('woff'), /* chrome, firefox */
+    url('../fonts/iconfont.ttf?t=1468899407') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg?t=1468899407#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.1px;
+}
+.icon-home:before { content: "\e63b"; }/*返回主页面*/
+.icon-magnify:before { content: "\e61d"; } /*放大*/
+.icon-shrink:before { content: "\e640"; }/*缩小*/
+.icon-pen:before { content: "\e605"; }/*墨迹注释*/
+.icon-splitscreen:before { content: "\e620"; }/*分屏*/
+.icon-pause:before { content: "\e609"; }/*暂停 三角*/
+.icon-thinpaused:before { content: "\e690"; }/*播放  细的双杠*/
+.icon-back:before { content: "\e61e"; } /*分屏返回*/
+.icon-translucence:before { content: "\e673"; }/*透明*/
+.icon-bothclear:before { content: "\e601"; }/*清除全部*/
+.icon-eraser:before { content: "\e682"; }/*橡皮擦*/
+.icon-delete2:before { content: "\e629"; } /*关掉注释*/
+.icon-close:before { content: "\e622"; }/*弹框里面的关闭*/
+.icon-warning:before { content: "\e693"; }/*警告提示*/
+.icon-leftarrows:before { content: "\e600"; }/*上一页*/
+.icon-rightarrows:before { content: "\e655"; }/*下一页*/
+.icon-voice:before { content: "\e637"; }/*音量*/
+.icon-disabledvoice:before { content: "\e69c"; }/*静音*/
+.icon-rightdot:before { content: "\e61b"; }/*勾选的对勾*/
+.icon-fullscreen:before { content: "\e694"; }/*全屏*/
+.icon-exitfullscreen:before { content: "\e630"; }/*退出全屏*/
+.icon-play:before { content: "\e657"; }/*播放过程*/

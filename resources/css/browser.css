@@ -1,0 +1,118 @@
+#outer {
+    min-height: 300px;
+}
+
+.browsehappy {
+    height: 345px;
+    width: 485px;
+    box-shadow: 0 0 0 1px #dddddd;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 11px 20px;
+    background-color: #fff;
+}
+
+    .browsehappy h4 {
+        font-family: "Microsoft YaHei", SimHei, SimSun;
+        font-size: 16px;
+        line-height: 28px;
+        color: #3c3c3c;
+        letter-spacing: 2px;
+    }
+
+    .browsehappy p {
+        margin-top: 8px;
+        line-height: 18px;
+        font-size: 14px;
+        color: #8b8b8b;
+    }
+
+.browser {
+    margin: 33px auto;
+    *zoom: 1;
+}
+
+    .browser:after {
+        clear: both;
+    }
+
+    .browser:before, .browser:after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+
+    .browser li {
+        font-family: "Microsoft YaHei", SimHei, SimSun;
+        float: left;
+        margin-left: 63px;
+    }
+
+        .browser li:first-child {
+            margin-left: 0;
+        }
+
+        .browser li a {
+            display: block;
+            width: 73px;
+            height: 73px;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+            .browser li a span {
+                position: absolute;
+                padding: 10px 36px;
+                bottom: -35px;
+            }
+
+            .browser li a.chrome {
+                background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserSprit.png");
+            }
+
+                .browser li a.chrome span {
+                    background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserFonts.png");
+                    background-position: 12px center;
+                }
+
+            .browser li a.firefox {
+                background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserSprit.png");
+                background-position: -99px 0;
+            }
+
+                .browser li a.firefox span {
+                    background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserFonts.png");
+                    background-position: -80px center;
+                }
+
+            .browser li a.ie {
+                background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserSprit.png");
+                background-position: -205px 0;
+            }
+
+                .browser li a.ie span {
+                    background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserFonts.png");
+                    background-position: -162px center;
+                    padding: 10px 64px;
+                    left: -25px;
+                }
+
+            .browser li a.safari {
+                background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserSprit.png");
+                background-position: -311px 0;
+            }
+
+                .browser li a.safari span {
+                    background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserFonts.png");
+                    background-position: -298px center;
+                }
+
+            .browser li a.opera {
+                background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserSprit.png");
+                background-position: -410px 0;
+            }
+
+                .browser li a.opera span {
+                    background-image: url("http://fs.dongboke.com/fs/static/axe/resaxe/img/browserFonts.png");
+                    background-position: -395px center;
+                }

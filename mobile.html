@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>设计演示</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+            background-color: #777777;
+        }
+
+        div {
+            box-sizing: border-box;
+        }
+
+        .axeslide-player {
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .axeslide-player:before, .axeslide-player:after {
+            display: table;
+            line-height: 0;
+            content: " ";
+        }
+
+        .axeslide-player:after {
+            clear: both;
+        }
+    </style>
+    <link href="resources/styles/wap-player.css" rel="stylesheet" />
+</head>
+<body>
+    <script>
+        var u = window.location.href;
+        var playlist = [];
+    </script>
+    <div class="axeslide-player">
+        <style>
+            #wrapper {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 120px;
+                margin-top: -60px;
+            }
+
+            #logo {
+                width: 88px;
+                height: 88px;
+                margin: 0 auto;
+                display: block;
+            }
+
+            #logo circle {
+                opacity: 0.8;
+            }
+
+            #slogin {
+                color: #ffffff;
+                font-size: 18px;
+                margin: 10px auto;
+                text-align: center;
+                font-family: "Helvetica Neue", Helvetica, sans-serif;
+            }
+        </style>
+
+    </div>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/common/jsondecycle.js"></script>
+    <script src="scripts/wap/wap-player-common.js"></script>
+    <script src="scripts/wap/wap-player.min.js"></script>
+    <script>
+        var DBK = {
+            isNativePlay: function () {
+                return 0
+            },
+            fsExtra: function (file) {
+                var data = null;
+                $.support.cors = true;
+                $.ajax({
+                    type: "get",
+                    async: false,
+                    url: "" + file,
+                    dataType: "json",
+                    success: function (ret) {
+                        data=ret;
+                    }
+                });
+                return data;
+            }
+        };
+        var context = DBK.fsExtra("context.json");
+        var font = DBK.fsExtra("font.json");
+        var player = new axeplayer({ container: '.axeslide-player', path: "", homePage: 'http://www.xpgon.com', description: '这是哪里？？？', debug: false, support_qq: false, showPlaylist: true, playlist: playlist, context: context, font: font });
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>

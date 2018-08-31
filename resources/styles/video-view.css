@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*===========================底下进度条展示======================================*/
+
+.mycontrols {
+    display:table;
+    position: absolute;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20px;
+    background-color: rgba(77, 77, 77, 0.43);
+    cursor: pointer;
+    z-index: 4;
+}
+
+.video-voice {
+  display:table-cell;
+  width: 26px;
+  height: 20px;
+  /*line-height:20px;*/
+}
+
+.video-voice a {
+    display:block;
+}
+
+.video-voice a b {
+    display: block;
+    width: 11px;
+    height: 12px;
+    z-index:9999;
+    margin-top: -5px;
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    right: 78px;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    line-height: normal;
+}
+
+
+.map-slider-video {
+    width: auto;
+    display: table-cell;
+    height: 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 8px;
+}
+.map-slider-video .drag-line {
+    width: 100%;
+    height: 7px;
+    background-color: #c7c7c7;
+    margin: 0px auto 0px auto;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+
+.map-slider-video .line {
+    width:0%;
+    height: 7px;
+    background-color: #0080ed;
+    border-radius: 1px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.slide-show {
+    width:100%;
+}
+
+.schedule {
+    display:table-cell;
+    width: 73px;
+}
+
+.schedule p {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    cursor: default;
+}
+
+/*============================播放暂停按钮==========================*/
+
+.play-audit{
+    display:table-cell;
+    width: 30px;
+    height: 20px;
+    line-height:20px;
+}
+
+.play-audit a {
+    display:block;
+}
+
+.play-audit a b {
+    display: block;
+    width: 11px;
+    height: 11px;
+    z-index:9999;
+    /*margin: 0 auto;*/
+    margin-top: -5px;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    vertical-align: baseline;
+    background-position: 0% 0%;
+    line-height: normal;
+}
+
+.view-audit {
+    z-index: 2000;
+    width:100%;
+    height: 100%;
+}
+
+.play-editAudit {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+/*============播放按钮============*/
+.view-playDot {
+    background: url("../img/view-play.svg") no-repeat;
+}
+
+/*=============暂停按钮=============*/
+
+.view-pauseDot {
+    background: url("../img/view-paused.svg") no-repeat;
+}
+
+.view-Videofont {
+    display: block;
+    background-size: 50% 50%;
+    background-position: 50% 50%;
+    height: 60%;
+    width: 60%;
+    margin: 0 auto;
+}
+

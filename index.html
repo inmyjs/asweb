@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="resources/styles/base.css" rel="stylesheet" />
+    <link href="resources/styles/common.css" rel="stylesheet" />
+    <link href="resources/styles/video-view.css" rel="stylesheet" />
+    <link href="resources/styles/jquery.fs.tipper.css" rel="stylesheet" />
+    <link href="resources/styles/popIn-play.css" rel="stylesheet" />
+    <link href="resources/styles/play.css?v=1" rel="stylesheet" />
+    <link href="resources/css/browser.css" rel="stylesheet" />
+    <title>设计演示</title>
+</head>
+<body>
+
+    <div id="outer" class="no_select">
+        <p id="tip_text" style="display:none">间隔4秒自动播放</p>
+
+        <!--填写内容区-->
+
+        <div class="wrap-canvas" id="canvas_box">
+            <div id="mask_left" class="mask-left"></div>
+            <div class="canvas-content" id="content">
+                <div id="home_logo" class="home-logo p_absolute no_select" style="display:none"><a><img id="home_logo_img" draggable="false" src="" /></a></div>
+            </div>
+            <div id="mask_right" class="mask-right"></div>
+        </div>
+
+        <!--进度条显示-->
+        <div id="map_slider" class="map-slider" style="display:none">
+            <div id="drag_line" class="drag-line">
+                <div id="progress_line" class="line"></div>
+                <div id="progress_point" class="draggable-button p_absolute"></div>
+                <!--拖拽时才出来的进度条的圆点-->
+                <!--<b class="schedule-dot p_absolute" style="left: 30%; display: none;"></b>-->
+            </div>
+        </div>
+
+        <!--底部内容显示-->
+        <div id="slide_bottom" class="slide-bottom" style="display:none">
+            <div class="voice">
+                <a id="play_pause_button_a" class="tipped" data-title="播放(F5/P)" data-tipper-options='{"direction":"right"}'>
+                    <i id="play_pause_button" class="iconfont icon-pause font-size-middle dark-normal-gray"></i>
+                </a>
+            </div>
+            <div id="slide_list" class="slide-list">
+                <ul>
+                    <li class="active">
+                        <a id="prev" class="left-default">
+                            <i class="iconfont icon-leftarrows blank"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="next">
+                            <i class="iconfont icon-rightarrows blank"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide-view dropup">
+                <ol class="pt-right">
+                    <li id="voice_li" style="visibility:hidden">
+                        <a id="voice_a">
+                            <i class="iconfont icon-voice font-size-middle dark-normal-gray"></i>
+                        </a>
+                        <div class="voice-schedule impression p_relative" id="opacity_bg">
+                            <div class="voice-line common-schedule p_absolute" id="opacity_bgcolor"></div>
+                            <b class="drag-audit p_absolute" id="opacity_bt"></b>
+                        </div>
+                    </li>
+                    <li id="ratio_li">
+                        <a id="ratio" class="tipped" data-title="屏幕比例" data-tipper-options='{"direction":"top"}'>
+                            <img class="home-set" src="resources/img/set.svg" />
+                        </a>
+                        <ul class="dropdown-menu p_absolute" id="ratio_list" style="display:none">
+                            <li><a>4:3</a></li>
+                            <li><a>16:9</a></li>
+                            <li><a id="close_ratio"><span class="iconfont icon-rightdot font-size-normal dark-normal-gray"></span>自适应</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a id="full_screen" class="tipped" data-title="全屏" data-tipper-options='{"direction":"top"}'>
+                            <i id="full_sreen_b" class="iconfont icon-fullscreen font-size-normal dark-normal-gray"></i>
+                        </a>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+
+        <!--进度条上的弹出框-->
+        <div id="slide_prompt" class="slide-prompt shadow-z-1-hover" style="display:none">
+            <p><img id="frame_image" src="" /></p>
+            <h3><b id="current_frame" class="font-weight-normal">1</b><s id="total_frame">/ 2</s></h3>
+        </div>
+
+        <!--屏幕右侧-->
+        <div id="middle" style="display:none">
+            <div class="greenBorder">
+                <ul>
+                    <li id="overview"><a class="tipped" data-title="显示所有" data-tipper-options='{"direction":"left"}'><i class="iconfont icon-home font-size-middle white"></i></a></li>
+                    <li id="bigger"><a class="tipped" data-title="放大" data-tipper-options='{"direction":"left"}'><i class="iconfont icon-magnify font-size-middle white"></i></a></li>
+                    <li id="smaller"><a class="tipped" data-title="缩小" data-tipper-options='{"direction":"left"}'><i class="iconfont icon-shrink font-size-middle white"></i></a></li>
+                    <li><a id="draw-inkmark" class="tipped" data-title="墨迹注释" data-tipper-options='{"direction":"left"}'><i class="iconfont icon-pen font-size-middle white"></i></a></li>
+                    <li style="display:none"><a id="presenter_view" class="tipped" data-title="分屏" data-tipper-options='{"direction":"left"}'><i class="iconfont icon-splitscreen font-size-middle white"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Esc提示-->
+        <div class="sec-hint p_absolute font-size16 hide">
+            按<span class="font-size-middle">Esc</span>键即可退出全屏
+        </div>
+        <!--激光笔-->
+        <div class="laser laser-dot" id="laser" style="display:none"></div>
+
+        <!--排练计时-->
+        <div id="record_toolbar" class="transcribe" style="display: none;">
+            <div class="transcribe-title">
+                <span><a id="exit_record"><img src="resources/img/close-time.svg" /> </a></span>
+                <b>排练计时</b>
+            </div>
+            <div class="transcribe-time">
+                <ul class="clearfix">
+                    <li id="start_stop_record" class="transcribe-line"><a><i id="start_stop_record_a" class="iconfont icon-pause font-size-middle blank"></i></a></li>
+                    <li id="current_step_elapse" class="transcribe-line font-size-normal">0:00:09</li>
+                    <li id="pause_record" class="transcribe-line"><a class="back-time"><i id="undo" class="iconfont icon-back font-size-middle dark-normal-gray ctrlZ"></i></a></li>
+                    <li id="total_step_elapse" class="font-size-normal">0:00:09</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--墨迹注释-->
+        <div id="draw-inkmark-toolbar" class="take-note shadow-z-2" style="display: none">
+            <ul class="clearfix">
+                <li><a id="inkmark-brush-small" class="tipped" data-title="细" data-tipper-options='{"direction":"bottom"}'><span class="brush small"></span></a></li>
+                <li><a id="inkmark-brush-medium" class="tipped active" data-title="中" data-tipper-options='{"direction":"bottom"}'><span class="brush middle"></span></a></li>
+                <li><a id="inkmark-brush-big" class="tipped" data-title="粗" data-tipper-options='{"direction":"bottom"}'><span class="brush big"></span></a></li>
+                <li><b class="border"></b></li>
+                <li class="edit-color p_relative">
+                    <a id="inkmark-color-button" class="tipped p_relative" data-title="选择颜色" data-tipper-options='{"direction":"bottom"}'>
+                        <span id="inkmark-brushshow" style="background-color: #ff0000" class="brush-show"></span>
+                        <!--<b class="brush-dot p_absolute"><s class="p_absolute"></s></b>-->
+                    </a>
+                </li>
+                <li><b class="border"></b></li>
+                <li>
+                    <a id="inkmark-opacity-button" class="tipped active" data-title="透明" data-tipper-options='{"direction":"bottom"}'>
+                        <i class="iconfont icon-translucence font-size-middle audit-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="clear-all-inkmarks" class="tipped" data-title="清除全部" data-tipper-options='{"direction":"bottom"}'>
+                        <i class="iconfont icon-bothclear font-size-middle audit-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="erase-inkmark" class="tipped" data-title="橡皮擦" data-tipper-options='{"direction":"right"}'>
+                        <i class="iconfont icon-eraser font-size-middle audit-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="close-inkmark-toolbar" class="tipped" data-title="关闭注释" data-tipper-options='{"direction":"bottom"}'>
+                        <i class="iconfont icon-delete2 font-size-middle audit-color"></i>
+                    </a>
+                </li>
+            </ul>
+            <div id="inkmark-palette" class="note-color clearfix" style="display:block">
+                <a style="background-color: #ffffff"></a>
+                <a style="background-color: #aaaaaa"></a>
+                <a style="background-color: #1b1b1b"></a>
+                <a style="background-color: #ff0000"></a>
+                <a style="background-color: #00a0e9"></a>
+                <a style="background-color: #fff100"></a>
+                <a style="background-color: #eb6101"></a>
+                <a style="background-color: #31b16c"></a>
+                <a style="background-color: #e50050"></a>
+                <a style="background-color: #7fcef4"></a>
+                <a style="background-color: #8f82bc"></a>
+                <a style="background-color: #d1c0a5"></a>
+                <!--<a style="background-color: #d1c0a5"></a>-->
+                <!--<a style="background-color: #d1d8a5"></a>-->
+                <!--<a style="background-color: #d1f0a5"></a>-->
+            </div>
+        </div>
+    </div>
+
+    <!--主页loading加载更多-->
+    <div id="inner1" class="load-more clearfix p_absolute bigger" style="display: block;">
+        <div class="loader-inner ball-pulse home fl">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p id="loading_info" class="font-size-middle fl mrg-left15 white">加载中</p>
+    </div>
+    <!-----------------------------------通用提示框---------------------------------------->
+    <div id="info_hint" class="pop-up information shadow-z-Bomb" style="display:none">
+        <div class="pop-header-common save-header information-header">
+            <p class="font-size-middle">提示信息</p>
+            <span id="close_hint" class="font-size10 iconfont icon-close"></span>
+        </div>
+        <div class=" information-content">
+            <p class="information-text">
+                <span class="font-size50 iconfont icon-warning "></span>
+                <b id="hint_content" class="font-size-middle">警告信息</b>
+            </p>
+        </div>
+    </div>
+
+    <!--遮罩-->
+    <div id="mask" class="mask" style="display:block"></div>
+    <!--link提示框-->
+    <div id="hyperlink_hint" class="hyperlink" style="display:none"></div>
+    <!-- --------------------------排练结束-------------------------------------->
+    <div id="ok_cancel_confirm" class="pop-up shadow-z-Bomb save-change end-rehearsal hide ">
+        <div class="pop-header-common save-header end-header">
+            <p id="ok_cancel_confirm_title" class="font-size-middle">排练结束</p>
+            <span id="ok_cancel_confirm_close" class="font-size10 iconfont icon-close"></span>
+        </div>
+        <div class="save-content end-content mrg-auto">
+            <span class="font-size50 iconfont icon-warning"></span>
+            <div class="end-wrap">
+                <div class="area-width">
+                    <div class="area-text">
+                        <p id="ok_cancel_confirm_content" class="font-size-middle">是否把排练的结果同步到编辑器？</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common-btn">
+            <button id="ok_cancel_confirm_ok" class="pop-btn btn-cover" tabindex="11">确定</button>
+            <button id="ok_cancel_confirm_cancel" class="pop-btn cancal-btn btn-bottom-cover">取消</button>
+        </div>
+    </div>
+
+    <div id="browsehappy" class="browsehappy" style="display: none">
+        <h4>你知道吗？你的Internet explore浏览器版本太低了！</h4>
+        <p>为了使您获得最佳的课件播放效果，我们推荐您使用下面的web浏览器。</p>
+        <br />
+        <br />
+        <p>点击图标马上下载：</p>
+        <ul class="browser">
+            <li>
+                <a class="chrome" href="http://rj.baidu.com/soft/detail/14744.html" target="_blank">
+                    <span></span>
+                </a>
+            </li>
+            <li>
+                <a class="firefox" href="http://www.firefox.com.cn/download/" target="_blank">
+                    <span></span>
+                </a>
+            </li>
+            <li>
+                <a class="ie" href="http://windows.microsoft.com/zh-CN/internet-explorer/download-ie" target="_blank">
+                    <span></span>
+                </a>
+            </li>
+            <li>
+                <a class="safari" href="http://www.apple.com/cn/safari/" target="_blank">
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/jquery.keyframes.js"></script>
+    <script src="scripts/common/jsondecycle.js"></script>
+    <script src="scripts/requestanimationframe.js"></script>
+    <script>
+
+        //document.domain = "localhost";
+        var oldUrl = window.location.href;
+        //全屏
+        function toggleFullScreen() {
+            if (!document.fullscreenElement && // alternative standard method
+                !document.mozFullScreenElement && !document.webkitFullscreenElement) {// current working methods
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else if (document.documentElement.mozRequestFullScreen) {
+                    document.documentElement.mozRequestFullScreen();
+                } else if (document.documentElement.webkitRequestFullscreen) {
+                    document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+            } else {
+                if (document.cancelFullScreen) {
+                    document.cancelFullScreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitCancelFullScreen) {
+                    document.webkitCancelFullScreen();
+                }
+            }
+        }
+        var DBK = {
+            nwGui: function () {
+                return {
+                    Window: {
+                        get: function () {
+                            return {
+                                close: function () {
+
+                                },
+                                toggleFullscreen: function () {
+                                    toggleFullScreen();
+                                },
+                                enterFullscreen: function () {
+                                    toggleFullScreen();
+                                },
+                                leaveFullscreen: function () {
+                                    toggleFullScreen();
+                                },
+                                on: function (name, func) {
+                                    $(window).on(name, func);
+                                }
+                            };
+                        }
+                    },
+                    Shell:{
+                        openExternal:function (i) {
+                            window.open(i);
+                        },
+                        openItem:function (e) {
+                            console.log(e);
+                            return 0;
+                        }
+                    }
+                }
+            },
+            fsExtra: function () {
+                return {
+                    readJsonSync: function (file, setting) {
+                        var data = null;
+                        $.support.cors = true
+                        $.ajax({
+                            type: "get",
+                            async: false,
+                            url: "" + file,
+                            dataType: "json",
+                            success: function (ret) {
+                                data = ret;
+                            }
+                        });
+                        return data;
+                    }
+                }
+            },
+            isNativePlay: function () {
+                return false;
+            }
+        }
+    </script>
+    <script src="app_format.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            preventScroll('outer');
+        });
+
+        function preventScroll(id) {
+            var _this = document.getElementById(id);
+
+            _this.onmousewheel = function (e) {
+                e = e || window.event;
+                _this.scrollTop += e.wheelDelta > 0 ? -60 : 60;
+                return false;
+            };
+            return this;
+        }
+
+        window.onkeydown = function (e) {
+            if (e.keyCode == 122) {
+                return window.parent.window.onkeydown(e);
+            }
+        }
+        document.oncontextmenu = function () {
+            return false;
+        }
+
+    </script>
+</body>
+</html>

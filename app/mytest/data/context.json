@@ -1,0 +1,4384 @@
+{
+  "isForSave": true,
+  "isForEditorPlay": false,
+  "coverPng": "",
+  "textContent": "LOGIC\nDIAGRAM;01;02;03;04;点击输入文字;这个不错;如果做一个没有的欧新黔 ;",
+  "version": "3.0.7,win64",
+  "isRunVideoOrGif": false,
+  "modifyParams": null,
+  "startFrom": 0,
+  "isMuted": false,
+  "isPlay": true,
+  "gotoElement": null,
+  "isRehearseMode": false,
+  "isModifyFont": false,
+  "fontErrorVersion": [
+    "2.2.7,win64",
+    "2.2.7,win32",
+    "2.2.7,mac64",
+    "2.2.8,win64",
+    "2.2.8,win32",
+    "2.2.8,mac64",
+    "2.2.9,win64",
+    "2.2.9,win32",
+    "2.2.9,mac64"
+  ],
+  "drawTimeList": [
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "avgDrawTime": 100,
+  "oldVersions": null,
+  "fontImgList": {
+    "items": []
+  },
+  "context2d": null,
+  "canvasHeight": 1057,
+  "canvasWidth": 1842,
+  "isExportPortable": true,
+  "isGoto": false,
+  "isHasGif": false,
+  "isHasVideo": false,
+  "path": "",
+  "hitElementData": {
+    "items": {
+      "#d0b790": {
+        "key": "#d0b790",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "NJBs6PMxM",
+          "config": {
+            "isStraight": true,
+            "width": 5714.0867091928685,
+            "height": 5862.652963631884,
+            "translate": {
+              "x": 23006.081645403567,
+              "y": -7126.630681034692,
+              "sx": -40855.870630055164,
+              "sy": 2363.3196148296056,
+              "ex": -2405.9099580181282,
+              "ey": 84.50830080227342,
+              "cx": null,
+              "cy": null
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.09211242519201096,
+            "zIndex": 0,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {},
+          "colorKey": "#d0b790",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 12.595990095032896,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#d0b790",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 0
+      },
+      "#8c628c": {
+        "key": "#8c628c",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "EyxcPTDzxf",
+          "config": {
+            "isStraight": true,
+            "width": 4100.638567728292,
+            "height": 4207.255170489233,
+            "translate": {
+              "x": 22201.999075510852,
+              "y": -2563.2950046782103,
+              "cx": -1830.9857644791446,
+              "cy": -698.4081871171297,
+              "sx": -39601.18458083864,
+              "sy": 654.714701503568,
+              "ex": -1830.9857644791446,
+              "ey": -698.4081871171297
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.06915439761515445,
+            "zIndex": 1,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#8c628c",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 9.039345290178733,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#8c628c",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 1
+      },
+      "#ab36a3": {
+        "key": "#ab36a3",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "image_V1jr3PMxz",
+          "config": {
+            "isStraight": true,
+            "width": 3758.863499366688,
+            "height": 3856.5939503502236,
+            "translate": {
+              "x": 30344.339734691657,
+              "y": -1925.7246847545796,
+              "sx": -30057.98000966102,
+              "sy": 1797.1141224157634,
+              "ex": -0.0006301853463810403,
+              "ey": 0.0002171221401567891
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.07735116570634189,
+            "zIndex": 2,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#ab36a3",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 8.285944861570247,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#ab36a3",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 2
+      },
+      "#ee89bc": {
+        "key": "#ee89bc",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "VJaKhDflG",
+          "config": {
+            "isStraight": true,
+            "width": 5625.518492365021,
+            "height": 5771.78197316651,
+            "translate": {
+              "x": 25435.42434756749,
+              "y": -1821.3834182238802,
+              "cx": null,
+              "cy": null,
+              "sx": -35605.3193464636,
+              "sy": 2178.8900888983408,
+              "ex": -0.003785744553169934,
+              "ey": -0.0013561640048465051
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.06196785222977889,
+            "zIndex": 3,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#ee89bc",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 12.40075252887845,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#ee89bc",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 3
+      },
+      "#d79ba2": {
+        "key": "#d79ba2",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "image_VJAPtvzxz",
+          "config": {
+            "isStraight": true,
+            "width": 7096.925769513744,
+            "height": 7185.637341632666,
+            "translate": {
+              "x": 27599.63086524313,
+              "y": -7972.5485292147705,
+              "sx": -35605.311977499296,
+              "sy": 2178.892357242723,
+              "ex": 0.0015227227777359076,
+              "ey": -0.00042400114307383774
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.09211242519201096,
+            "zIndex": 4,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#d79ba2",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 15.644285998349128,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#d79ba2",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 4
+      },
+      "#19fec8": {
+        "key": "#19fec8",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "NygMpYvGez",
+          "config": {
+            "isStraight": true,
+            "width": 19246.536902744352,
+            "height": 12032.64973771575,
+            "translate": {
+              "x": 15478.803814252824,
+              "y": -8032.28165596725,
+              "sx": -35605.313505999424,
+              "sy": 2178.892655662321,
+              "ex": 0.00047277158591896296,
+              "ey": -0.00021274627579259686
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 5,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#19fec8",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 11.51587535608569,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#19fec8",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 5
+      },
+      "#4ab5ff": {
+        "key": "#4ab5ff",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "EkfzaKwMeM",
+          "config": {
+            "isStraight": true,
+            "width": 19246.536902744352,
+            "height": 12032.64973771575,
+            "translate": {
+              "x": 15487.004986127824,
+              "y": -8034.455606162563,
+              "sx": -35605.31322861972,
+              "sy": 2178.8928056481473,
+              "ex": -0.000051005888963118196,
+              "ey": 0.00019226180847908836
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 6,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false,
+            "needMirrorHor": false,
+            "needMirrorVer": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#4ab5ff",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 11.51587535608569,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#4ab5ff",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 6
+      },
+      "#400b84": {
+        "key": "#400b84",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_4JUXlne-T7",
+          "config": {
+            "isStraight": true,
+            "width": 26864.32286961316,
+            "height": 15111.181614157407,
+            "translate": {
+              "x": 18677.883487068422,
+              "y": -9382.314439891205,
+              "sx": -30057.979565167418,
+              "sy": 1797.1139052936242,
+              "ex": -0.00018569174426374957,
+              "ey": 9.094947017729282e-13
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 7,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#400b84",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 7
+      },
+      "#f85c54": {
+        "key": "#f85c54",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_EJvXxhg-pX",
+          "config": {
+            "isStraight": true,
+            "width": 3293.551384048531,
+            "height": 959.3778924060045,
+            "translate": {
+              "x": 37465.23212047573,
+              "y": -1061.0532040155022,
+              "sx": 63939.49031418035,
+              "sy": -249.00931314723618,
+              "ex": 65595.29278476654,
+              "ey": 3010.366480494463,
+              "cx": 51644.681079253845,
+              "cy": 12333.919324429397
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.038779231206519466,
+            "zIndex": 25,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#f85c54",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 6.512165183999125,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#f85c54",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 8
+      },
+      "#b8026d": {
+        "key": "#b8026d",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_NJu7ehxbpX",
+          "config": {
+            "isStraight": true,
+            "width": 5925.254902021174,
+            "height": 3145.73712335835,
+            "translate": {
+              "x": 37404.29442398941,
+              "y": -4333.57144253855,
+              "cx": 11140.917017241696,
+              "cy": -9347.500203190913,
+              "sx": 24354.088593943896,
+              "sy": -10182.782728804905,
+              "ex": 11140.917017241696,
+              "ey": -9347.500203190913
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.038779231206519466,
+            "zIndex": 9,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#b8026d",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 6.934384384411277,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#b8026d",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 9
+      },
+      "#3a252d": {
+        "key": "#3a252d",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_E1K7e2xWaX",
+          "config": {
+            "isStraight": true,
+            "width": 3776.9797079834952,
+            "height": 3143.4063499839767,
+            "translate": {
+              "x": 29651.279677258244,
+              "y": -5923.422413273239,
+              "cx": null,
+              "cy": null,
+              "sx": -30057.97110939681,
+              "sy": 1797.1129969269596,
+              "ex": 0.0082700788625516,
+              "ey": -0.0009083666636797716
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21710202581563046,
+            "zIndex": 9,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#3a252d",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 6.929246485770338,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#3a252d",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 10
+      },
+      "#d32c68": {
+        "key": "#d32c68",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_Vy5Qx2lWp7",
+          "config": {
+            "isStraight": true,
+            "width": 2835.863195229486,
+            "height": 2186.62928032977,
+            "translate": {
+              "x": 24576.650433635252,
+              "y": -5369.72064602426,
+              "cx": -2555.9482615811066,
+              "cy": -20.187301124743954,
+              "sx": -28175.425001796655,
+              "sy": 987.2528541433276,
+              "ex": -2555.9482615811066,
+              "ey": -20.187301124743954
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.13156640027466873,
+            "zIndex": 20,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#d32c68",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 14.842629981774081,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#d32c68",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 11
+      },
+      "#f0a2d3": {
+        "key": "#f0a2d3",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_VksXeneZTX",
+          "config": {
+            "isStraight": true,
+            "width": 3084.842350862072,
+            "height": 2378.607710646741,
+            "translate": {
+              "x": 26640.74288706897,
+              "y": -94.73110141712061,
+              "cx": -1680.2880800646672,
+              "cy": 2509.7268214269643,
+              "sx": -30742.780928368775,
+              "sy": 6820.362517742329,
+              "ex": -1680.2880800646672,
+              "ey": 2509.7268214269643
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.18757739185170513,
+            "zIndex": 18,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#f0a2d3",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 16.145761166977486,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#f0a2d3",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 12
+      },
+      "#fb5723": {
+        "key": "#fb5723",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_NJh7enl-6X",
+          "config": {
+            "isStraight": true,
+            "width": 2170.9572077894722,
+            "height": 1673.951394136025,
+            "translate": {
+              "x": 23142.953036730225,
+              "y": -1272.1779980934032,
+              "cx": -3436.120145628789,
+              "cy": 1825.305441790034,
+              "sx": -34663.91043913011,
+              "sy": 5290.587462810693,
+              "ex": -3436.120145628789,
+              "ey": 1825.305441790034
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 19,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#fb5723",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 11.362621626876246,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#fb5723",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 13
+      },
+      "#77d21c": {
+        "key": "#77d21c",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_4Jpmg3lW67",
+          "config": {
+            "isStraight": true,
+            "width": 372.26339898065225,
+            "height": 372.26339898065225,
+            "translate": {
+              "sx": 29558.902343750022,
+              "sy": -4353.798828125001,
+              "ex": 30039.64206018064,
+              "ey": -2806.3749249869807,
+              "cx": 29949.58932580564,
+              "cy": -2899.891801207684,
+              "x": 29372.770644259675,
+              "y": -4539.930527615326
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.10515278365585469,
+            "zIndex": 11,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#77d21c",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Circle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "radius": 186.13169949032613,
+          "centerX": 29558.902343750022,
+          "centerY": -4353.798828125001,
+          "tempFill": true,
+          "tempStroke": false
+        },
+        "index": 14
+      },
+      "#3839c0": {
+        "key": "#3839c0",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_4yAXghxbp7",
+          "config": {
+            "isStraight": true,
+            "width": 360.68385592847426,
+            "height": 360.68385592847426,
+            "translate": {
+              "sx": 24483.197265624975,
+              "sy": -4213.586914062498,
+              "ex": 27687.461046334247,
+              "ey": -2743.9268119858034,
+              "cx": 27597.408311959247,
+              "cy": -2837.4436882065065,
+              "x": 24302.855337660763,
+              "y": -4393.928842026737
+            },
+            "rotate": {
+              "x": -57.82164559039615,
+              "y": 0,
+              "z": -57.82164559039615
+            },
+            "scale": 0.12510951795038786,
+            "zIndex": 12,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#3839c0",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Circle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "radius": 180.34192796423713,
+          "centerX": 24483.197265624975,
+          "centerY": -4213.586914062498,
+          "tempFill": true,
+          "tempStroke": false
+        },
+        "index": 15
+      },
+      "#76db3b": {
+        "key": "#76db3b",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_EJyxmxnlWTm",
+          "config": {
+            "isStraight": true,
+            "width": 356.2248963524877,
+            "height": 356.2248963524877,
+            "translate": {
+              "sx": 25196.12109374999,
+              "sy": -353.357330322266,
+              "ex": 29051.39836172852,
+              "ey": -856.9560937540525,
+              "cx": 28961.34562735352,
+              "cy": -950.4729699747556,
+              "x": 25018.008645573755,
+              "y": -531.4697784985094
+            },
+            "rotate": {
+              "x": -61.289205143695504,
+              "y": 0,
+              "z": -61.289205143695504
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 13,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#76db3b",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Circle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "radius": 178.11244817624384,
+          "centerX": 25196.12109374999,
+          "centerY": -353.357330322266,
+          "tempFill": true,
+          "tempStroke": false
+        },
+        "index": 16
+      },
+      "#ed263e": {
+        "key": "#ed263e",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_E1xlQg3ebpm",
+          "config": {
+            "isStraight": true,
+            "width": 367.66128713009226,
+            "height": 367.66128713009226,
+            "translate": {
+              "sx": 29457.164062499953,
+              "sy": 1227.8763427734384,
+              "ex": 31402.248984530048,
+              "ey": -164.37225465555457,
+              "cx": 31312.196250155048,
+              "cy": -257.8891308762577,
+              "x": 29273.333418934955,
+              "y": 1044.0456992083914
+            },
+            "rotate": {
+              "x": -110.45269103852314,
+              "y": 0,
+              "z": -110.45269103852314
+            },
+            "scale": 0.2081241131544301,
+            "zIndex": 14,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#ed263e",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Circle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "radius": 183.83064356504613,
+          "centerX": 29457.164062499953,
+          "centerY": 1227.8763427734384,
+          "tempFill": true,
+          "tempStroke": false
+        },
+        "index": 17
+      },
+      "#9422ba": {
+        "key": "#9422ba",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_EkZlmlnebT7",
+          "config": {
+            "isStraight": true,
+            "width": 7807.3899729157265,
+            "height": 4391.6568597650985,
+            "translate": {
+              "x": 27397.373372917136,
+              "y": -6559.908019726299,
+              "sx": -30057.9801876908,
+              "sy": 1797.1140449262339,
+              "ex": -0.00080821512528928,
+              "ey": 0.00013963261062599486
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.10515278365585469,
+            "zIndex": 15,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#9422ba",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 18
+      },
+      "#bca7d2": {
+        "key": "#bca7d2",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_VJzlmlngbpQ",
+          "config": {
+            "isStraight": true,
+            "width": 5821.676171274861,
+            "height": 3274.6928463421114,
+            "translate": {
+              "x": 25343.19511748757,
+              "y": -543.0821409444932,
+              "cx": null,
+              "cy": null,
+              "sx": -30057.978542194032,
+              "sy": 1797.1150424701552,
+              "ex": 0.0008372816409973893,
+              "ey": 0.0011371765319836413
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.2081241131544301,
+            "zIndex": 16,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#bca7d2",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 19
+      },
+      "#334cc0": {
+        "key": "#334cc0",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_VyXgmx3eZpm",
+          "config": {
+            "isStraight": true,
+            "width": 4327.896417941174,
+            "height": 2434.441735091911,
+            "translate": {
+              "x": 22025.02640040441,
+              "y": -1748.5301326826743,
+              "cx": -1862.6898154898336,
+              "cy": -744.8712339074605,
+              "sx": -39670.37210752942,
+              "sy": 553.3174403326475,
+              "ex": -1862.6898154898336,
+              "ey": -744.8712339074605
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 17,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#334cc0",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 20
+      },
+      "#5a76cf": {
+        "key": "#5a76cf",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_VyNgQl3gb67",
+          "config": {
+            "isStraight": true,
+            "width": 5762.513443065917,
+            "height": 3241.41381172458,
+            "translate": {
+              "x": 23068.90148159204,
+              "y": -5976.72448398729,
+              "cx": -1055.6809637379083,
+              "cy": -2497.427874935603,
+              "sx": -37909.18851377939,
+              "sy": -3271.3908726556356,
+              "ex": -1055.6809637379083,
+              "ey": -2497.427874935603
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 21,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#5a76cf",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 21
+      },
+      "#16796c": {
+        "key": "#16796c",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_4JrgQg3l-aX",
+          "config": {
+            "isStraight": true,
+            "width": 144.29101536351246,
+            "height": 81.16369614197576,
+            "translate": {
+              "x": 29389.344726693245,
+              "y": 1209.823181225887,
+              "cx": null,
+              "cy": null,
+              "sx": -24672.749317804697,
+              "sy": 1916.9285238409761,
+              "ex": 614.8391127510877,
+              "ey": 178.54967554489042
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 7.543481471997051,
+            "zIndex": 22,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#16796c",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 22
+      },
+      "#106d87": {
+        "key": "#106d87",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_4kLgXl3l-pQ",
+          "config": {
+            "isStraight": true,
+            "width": 38.969863435164626,
+            "height": 8.009917274935185,
+            "translate": {
+              "x": 29440.765068282417,
+              "y": 1244.3838353078422,
+              "cx": null,
+              "cy": null,
+              "sx": -24672.889540927194,
+              "sy": 1916.9250906561458,
+              "ex": 614.6990089688406,
+              "ey": 178.54628091442055
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 7.219976574296529,
+            "zIndex": 23,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#106d87",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#106d87",
+            "strokeStyle": "#ef5a26",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 23
+      },
+      "#5bfc9b": {
+        "key": "#5bfc9b",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_V1Dg7g3xb6X",
+          "config": {
+            "isStraight": true,
+            "width": 253.13180895612012,
+            "height": 142.38664253781755,
+            "translate": {
+              "x": 29432.97315802194,
+              "y": -4425.803672831409
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 24,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#5bfc9b",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(0,128,237)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 24
+      },
+      "#d25a94": {
+        "key": "#d25a94",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_Nk_gQgnlb6m",
+          "config": {
+            "isStraight": true,
+            "width": 62.31524737560989,
+            "height": 25.13317731075368,
+            "translate": {
+              "x": 29528.695891937194,
+              "y": -4361.975768342877
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 6.696116141056869,
+            "zIndex": 25,
+            "type": "text"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#d25a94",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#d25a94",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 25
+      },
+      "#0f8704": {
+        "key": "#0f8704",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_VJxKHnxbam",
+          "config": {
+            "isStraight": true,
+            "width": 2527.5411848766266,
+            "height": 1421.741916493102,
+            "translate": {
+              "x": 33958.43253256169,
+              "y": 3162.744031987824
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 26,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#0f8704",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "DashRectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 26
+      },
+      "#a772e8": {
+        "key": "#a772e8",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "V11R3lWpQ",
+          "config": {
+            "isStraight": true,
+            "width": 712.9623845591136,
+            "height": 712.9623845591136,
+            "translate": {
+              "x": 35178.870370220444,
+              "y": 3708.004647564193
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 27,
+            "type": "image",
+            "needMirrorHor": false,
+            "needMirrorVer": false,
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#a772e8",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Rectangle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 4.839520333935304,
+            "isStroke": true,
+            "isFill": true,
+            "fillStyle": "#a772e8",
+            "strokeStyle": "rgb(0,128,237)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "tempFill": true,
+          "tempStroke": true
+        },
+        "index": 27
+      },
+      "#47a667": {
+        "key": "#47a667",
+        "value": {
+          "tempContext": null,
+          "isDraw": true,
+          "id": "t_NJezk6l-TX",
+          "config": {
+            "isStraight": true,
+            "width": 596.4698961796669,
+            "height": 596.4698961796669,
+            "translate": {
+              "x": 34715.202551910166,
+              "y": 3626.0799933164167,
+              "sx": 35013.4375,
+              "sy": 3924.31494140625
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 28,
+            "type": "shape"
+          },
+          "context": {
+            "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"][\"context\"]"
+          },
+          "colorKey": "#47a667",
+          "isEditing": false,
+          "isSelected": false,
+          "effectId": "",
+          "frameNum": "",
+          "groupId": "",
+          "childrenElement": null,
+          "crossedElements": null,
+          "hyperlink": null,
+          "typeName": "Circle",
+          "ctrlDirection": 0,
+          "shapeParameter": {
+            "lineWidth": 19.893281410338542,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "radius": 298.23494808983344,
+          "centerX": 35013.4375,
+          "centerY": 3924.31494140625,
+          "tempFill": false,
+          "tempStroke": true
+        },
+        "index": 28
+      }
+    },
+    "itemList": [
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#d0b790\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#8c628c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#ab36a3\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#ee89bc\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#d79ba2\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#19fec8\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#4ab5ff\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#400b84\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#f85c54\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#b8026d\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#3a252d\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#d32c68\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#f0a2d3\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#fb5723\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#77d21c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#3839c0\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#76db3b\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#ed263e\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#9422ba\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#bca7d2\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#334cc0\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#5a76cf\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#16796c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#106d87\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#5bfc9b\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#d25a94\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#0f8704\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#a772e8\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"hitElementData\"][\"items\"][\"#47a667\"][\"value\"]"
+      }
+    ]
+  },
+  "commonElements": {
+    "items": {
+      "#d0b790": {
+        "key": "#d0b790",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "NJBs6PMxM",
+          "config": {
+            "isStraight": true,
+            "width": 5714.0867091928685,
+            "height": 5862.652963631884,
+            "translate": {
+              "x": 23006.081645403567,
+              "y": -7126.630681034692,
+              "sx": -40855.870630055164,
+              "sy": 2363.3196148296056,
+              "ex": -2405.9099580181282,
+              "ey": 84.50830080227342,
+              "cx": null,
+              "cy": null
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.09211242519201096,
+            "zIndex": 0,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#d0b790",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "",
+          "src": "work/image/image_Vk3mAPfgM.png",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 0
+      },
+      "#8c628c": {
+        "key": "#8c628c",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "EyxcPTDzxf",
+          "config": {
+            "isStraight": true,
+            "width": 4100.638567728292,
+            "height": 4207.255170489233,
+            "translate": {
+              "x": 22201.999075510852,
+              "y": -2563.2950046782103,
+              "cx": -1830.9857644791446,
+              "cy": -698.4081871171297,
+              "sx": -39601.18458083864,
+              "sy": 654.714701503568,
+              "ex": -1830.9857644791446,
+              "ey": -698.4081871171297
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.06915439761515445,
+            "zIndex": 1,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#8c628c",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "",
+          "src": "work/image/image_EyxcPTDzxf.png",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 1
+      },
+      "#ab36a3": {
+        "key": "#ab36a3",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "image_V1jr3PMxz",
+          "config": {
+            "isStraight": true,
+            "width": 3758.863499366688,
+            "height": 3856.5939503502236,
+            "translate": {
+              "x": 30344.339734691657,
+              "y": -1925.7246847545796,
+              "sx": -30057.98000966102,
+              "sy": 1797.1141224157634,
+              "ex": -0.0006301853463810403,
+              "ey": 0.0002171221401567891
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.07735116570634189,
+            "zIndex": 2,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#ab36a3",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "",
+          "src": "work/image/image_EkylTvMez.png",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 2
+      },
+      "#ee89bc": {
+        "key": "#ee89bc",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "VJaKhDflG",
+          "config": {
+            "isStraight": true,
+            "width": 5625.518492365021,
+            "height": 5771.78197316651,
+            "translate": {
+              "x": 25435.42434756749,
+              "y": -1821.3834182238802,
+              "cx": null,
+              "cy": null,
+              "sx": -35605.3193464636,
+              "sy": 2178.8900888983408,
+              "ex": -0.003785744553169934,
+              "ey": -0.0013561640048465051
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.06196785222977889,
+            "zIndex": 3,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#ee89bc",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "",
+          "src": "work/image/image_VkgmAPzgz.png",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 3
+      },
+      "#d79ba2": {
+        "key": "#d79ba2",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "image_VJAPtvzxz",
+          "config": {
+            "isStraight": true,
+            "width": 7096.925769513744,
+            "height": 7185.637341632666,
+            "translate": {
+              "x": 27599.63086524313,
+              "y": -7972.5485292147705,
+              "sx": -35605.311977499296,
+              "sy": 2178.892357242723,
+              "ex": 0.0015227227777359076,
+              "ey": -0.00042400114307383774
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.09211242519201096,
+            "zIndex": 4,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#d79ba2",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "",
+          "src": "work/image/image_VJAPtvzxz.png",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 4
+      },
+      "#19fec8": {
+        "key": "#19fec8",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "NygMpYvGez",
+          "config": {
+            "isStraight": true,
+            "width": 19246.536902744352,
+            "height": 12032.64973771575,
+            "translate": {
+              "x": 15478.803814252824,
+              "y": -8032.28165596725,
+              "sx": -35605.313505999424,
+              "sy": 2178.892655662321,
+              "ex": 0.00047277158591896296,
+              "ey": -0.00021274627579259686
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 5,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#19fec8",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "#5FB7FF",
+          "src": "work/image/svg_VkMTtvGxG.svg",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 5
+      },
+      "#4ab5ff": {
+        "key": "#4ab5ff",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "EkfzaKwMeM",
+          "config": {
+            "isStraight": true,
+            "width": 19246.536902744352,
+            "height": 12032.64973771575,
+            "translate": {
+              "x": 15487.004986127824,
+              "y": -8034.455606162563,
+              "sx": -35605.31322861972,
+              "sy": 2178.8928056481473,
+              "ex": -0.000051005888963118196,
+              "ey": 0.00019226180847908836
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 6,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#4ab5ff",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "url(#SVGID_1_)",
+          "src": "work/image/svg_EkbGpFPflG.svg",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 6
+      },
+      "#400b84": {
+        "key": "#400b84",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_NyMXcvGgM",
+          "config": {
+            "isStraight": true,
+            "width": 26864.32286961316,
+            "height": 15111.181614157407,
+            "translate": {
+              "x": 18677.883487068422,
+              "y": -9382.314439891205,
+              "sx": -30057.979565167418,
+              "sy": 1797.1139052936242,
+              "ex": -0.00018569174426374957,
+              "ey": 9.094947017729282e-13
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 7,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#400b84",
+          "effectId": "",
+          "frameNum": "1,10,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 7
+      },
+      "#b8026d": {
+        "key": "#b8026d",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "textV175I5vMeG",
+          "config": {
+            "isStraight": true,
+            "width": 5925.254902021174,
+            "height": 3145.73712335835,
+            "translate": {
+              "x": 37404.29442398941,
+              "y": -4333.57144253855,
+              "cx": 11140.917017241696,
+              "cy": -9347.500203190913,
+              "sx": 24354.088593943896,
+              "sy": -10182.782728804905,
+              "ex": 11140.917017241696,
+              "ey": -9347.500203190913
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.038779231206519466,
+            "zIndex": 9,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#b8026d",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "LOGIC\nDIAGRAM",
+          "textLines": [
+            "LOGIC\n",
+            "DIAGRAM"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 35.279998779296875,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 46.019989013671875,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "2": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 44.87998962402344,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "3": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 14.219985961914062,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "4": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 43.67999267578125,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "5": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 847.1507633090815,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "6": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 42.36000061035156,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "7": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 14.219985961914062,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "8": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 39.41999816894531,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "9": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 44.87998962402344,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "10": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 40.55999755859375,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "11": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 39.41999816894531,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "12": {
+              "fill": "#434343",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 52.91999816894531,
+              "fontWeight": "bold",
+              "fontStyle": "",
+              "textDecoration": ""
+            },
+            "13": {
+              "fill": "",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 584.3840704443046,
+              "fontWeight": "bold"
+            },
+            "14": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"13\"]"
+            },
+            "15": {
+              "fill": "",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 894.9882767945147,
+              "fontWeight": "bold"
+            },
+            "16": {
+              "fill": "",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 1368.8997276392279,
+              "fontWeight": "bold"
+            },
+            "17": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"15\"]"
+            },
+            "18": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"15\"]"
+            },
+            "19": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"16\"]"
+            },
+            "20": {
+              "fill": "",
+              "fontSize": 1199.930242355184,
+              "fontFamily": "wryh",
+              "width": 946.2219141424224,
+              "fontWeight": "bold"
+            },
+            "21": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"20\"]"
+            },
+            "22": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"13\"]"
+            },
+            "23": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"15\"]"
+            },
+            "24": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"16\"]"
+            }
+          },
+          "fontSize": 1199.930242355184,
+          "minSize": 1199.930242355184,
+          "maxSize": 1199.930242355184,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 5,
+                "width": 3681.3851046905465
+              }
+            ],
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"][\"styles\"][\"6\"]"
+                },
+                "charLength": 7,
+                "width": 5475.281061137979
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 8
+      },
+      "#3a252d": {
+        "key": "#3a252d",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "text4JVlWy_flf",
+          "config": {
+            "isStraight": true,
+            "width": 3776.9797079834952,
+            "height": 3143.4063499839767,
+            "translate": {
+              "x": 29651.279677258244,
+              "y": -5923.422413273239,
+              "cx": null,
+              "cy": null,
+              "sx": -30057.97110939681,
+              "sy": 1797.1129969269596,
+              "ex": 0.0082700788625516,
+              "ey": -0.0009083666636797716
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21710202581563046,
+            "zIndex": 9,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#3a252d",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "01",
+          "textLines": [
+            "01"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#8e8c8e",
+              "fontSize": 2398.082354275235,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#8e8c8e",
+              "fontSize": 2398.082354275235,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            }
+          },
+          "fontSize": 2398.082354275235,
+          "minSize": 2398.082354275235,
+          "maxSize": 2398.082354275235,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#3a252d\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 2,
+                "width": 2877.6988251302823
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 9
+      },
+      "#77d21c": {
+        "key": "#77d21c",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_E1D5yuzez",
+          "config": {
+            "isStraight": true,
+            "width": 372.26339898065225,
+            "height": 372.26339898065225,
+            "translate": {
+              "sx": 29558.902343750022,
+              "sy": -4353.798828125001,
+              "ex": 30039.64206018064,
+              "ey": -2806.3749249869807,
+              "cx": 29949.58932580564,
+              "cy": -2899.891801207684,
+              "x": 29372.770644259675,
+              "y": -4539.930527615326
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.10515278365585469,
+            "zIndex": 11,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#77d21c",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoCircle",
+          "hyperlink": null
+        },
+        "index": 10
+      },
+      "#3839c0": {
+        "key": "#3839c0",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_V1ZdT1_MeM",
+          "config": {
+            "isStraight": true,
+            "width": 360.68385592847426,
+            "height": 360.68385592847426,
+            "translate": {
+              "sx": 24483.197265624975,
+              "sy": -4213.586914062498,
+              "ex": 27687.461046334247,
+              "ey": -2743.9268119858034,
+              "cx": 27597.408311959247,
+              "cy": -2837.4436882065065,
+              "x": 24302.855337660763,
+              "y": -4393.928842026737
+            },
+            "rotate": {
+              "x": -57.82164559039615,
+              "y": 0,
+              "z": -57.82164559039615
+            },
+            "scale": 0.12510951795038786,
+            "zIndex": 12,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#3839c0",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoCircle",
+          "hyperlink": null
+        },
+        "index": 11
+      },
+      "#76db3b": {
+        "key": "#76db3b",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_NkWg1xOzgz",
+          "config": {
+            "isStraight": true,
+            "width": 356.2248963524877,
+            "height": 356.2248963524877,
+            "translate": {
+              "sx": 25196.12109374999,
+              "sy": -353.357330322266,
+              "ex": 29051.39836172852,
+              "ey": -856.9560937540525,
+              "cx": 28961.34562735352,
+              "cy": -950.4729699747556,
+              "x": 25018.008645573755,
+              "y": -531.4697784985094
+            },
+            "rotate": {
+              "x": -61.289205143695504,
+              "y": 0,
+              "z": -61.289205143695504
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 13,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#76db3b",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoCircle",
+          "hyperlink": null
+        },
+        "index": 12
+      },
+      "#ed263e": {
+        "key": "#ed263e",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_E1-Skxdflf",
+          "config": {
+            "isStraight": true,
+            "width": 367.66128713009226,
+            "height": 367.66128713009226,
+            "translate": {
+              "sx": 29457.164062499953,
+              "sy": 1227.8763427734384,
+              "ex": 31402.248984530048,
+              "ey": -164.37225465555457,
+              "cx": 31312.196250155048,
+              "cy": -257.8891308762577,
+              "x": 29273.333418934955,
+              "y": 1044.0456992083914
+            },
+            "rotate": {
+              "x": -110.45269103852314,
+              "y": 0,
+              "z": -110.45269103852314
+            },
+            "scale": 0.2081241131544301,
+            "zIndex": 14,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#ed263e",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 2,
+            "isStroke": false,
+            "isFill": true,
+            "fillStyle": "#5ba8e8",
+            "strokeStyle": "#5ba8e8",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoCircle",
+          "hyperlink": null
+        },
+        "index": 13
+      },
+      "#9422ba": {
+        "key": "#9422ba",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_Vy1SedGef",
+          "config": {
+            "isStraight": true,
+            "width": 7807.3899729157265,
+            "height": 4391.6568597650985,
+            "translate": {
+              "x": 27397.373372917136,
+              "y": -6559.908019726299,
+              "sx": -30057.9801876908,
+              "sy": 1797.1140449262339,
+              "ex": -0.00080821512528928,
+              "ey": 0.00013963261062599486
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.10515278365585469,
+            "zIndex": 15,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#9422ba",
+          "effectId": "",
+          "frameNum": "4,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 14
+      },
+      "#bca7d2": {
+        "key": "#bca7d2",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_VyxyIeuMxG",
+          "config": {
+            "isStraight": true,
+            "width": 5821.676171274861,
+            "height": 3274.6928463421114,
+            "translate": {
+              "x": 25343.19511748757,
+              "y": -543.0821409444932,
+              "cx": null,
+              "cy": null,
+              "sx": -30057.978542194032,
+              "sy": 1797.1150424701552,
+              "ex": 0.0008372816409973893,
+              "ey": 0.0011371765319836413
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.2081241131544301,
+            "zIndex": 16,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#bca7d2",
+          "effectId": "",
+          "frameNum": "6,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 15
+      },
+      "#334cc0": {
+        "key": "#334cc0",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_V1x3uedGgM",
+          "config": {
+            "isStraight": true,
+            "width": 4327.896417941174,
+            "height": 2434.441735091911,
+            "translate": {
+              "x": 22025.02640040441,
+              "y": -1748.5301326826743,
+              "cx": -1862.6898154898336,
+              "cy": -744.8712339074605,
+              "sx": -39670.37210752942,
+              "sy": 553.3174403326475,
+              "ex": -1862.6898154898336,
+              "ey": -744.8712339074605
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 17,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#334cc0",
+          "effectId": "",
+          "frameNum": "8,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 16
+      },
+      "#f0a2d3": {
+        "key": "#f0a2d3",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "textN1Qm71_fgz",
+          "config": {
+            "isStraight": true,
+            "width": 3084.842350862072,
+            "height": 2378.607710646741,
+            "translate": {
+              "x": 26640.74288706897,
+              "y": -94.73110141712061,
+              "cx": -1680.2880800646672,
+              "cy": 2509.7268214269643,
+              "sx": -30742.780928368775,
+              "sy": 6820.362517742329,
+              "ex": -1680.2880800646672,
+              "ey": 2509.7268214269643
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.18757739185170513,
+            "zIndex": 18,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#f0a2d3",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "02",
+          "textLines": [
+            "02"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#8e8c8e",
+              "fontSize": 1814.6229101668755,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#8e8c8e",
+              "fontSize": 1814.6229101668755,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            }
+          },
+          "fontSize": 1814.6229101668755,
+          "minSize": 1814.6229101668755,
+          "maxSize": 1814.6229101668755,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#f0a2d3\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 2,
+                "width": 2177.5474922002504
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 17
+      },
+      "#fb5723": {
+        "key": "#fb5723",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "text4kg_FkdGlz",
+          "config": {
+            "isStraight": true,
+            "width": 2170.9572077894722,
+            "height": 1673.951394136025,
+            "translate": {
+              "x": 23142.953036730225,
+              "y": -1272.1779980934032,
+              "cx": -3436.120145628789,
+              "cy": 1825.305441790034,
+              "sx": -34663.91043913011,
+              "sy": 5290.587462810693,
+              "ex": -3436.120145628789,
+              "ey": 1825.305441790034
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 19,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#fb5723",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "03",
+          "textLines": [
+            "03"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#8e8c8e",
+              "fontSize": 1277.045616521227,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#8e8c8e",
+              "fontSize": 1277.045616521227,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            }
+          },
+          "fontSize": 1277.045616521227,
+          "minSize": 1277.045616521227,
+          "maxSize": 1277.045616521227,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#fb5723\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 2,
+                "width": 1532.4547398254722
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 18
+      },
+      "#d32c68": {
+        "key": "#d32c68",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "textNy7sWyuMef",
+          "config": {
+            "isStraight": true,
+            "width": 2835.863195229486,
+            "height": 2186.62928032977,
+            "translate": {
+              "x": 24576.650433635252,
+              "y": -5369.72064602426,
+              "cx": -2555.9482615811066,
+              "cy": -20.187301124743954,
+              "sx": -28175.425001796655,
+              "sy": 987.2528541433276,
+              "ex": -2555.9482615811066,
+              "ey": -20.187301124743954
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.13156640027466873,
+            "zIndex": 20,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#d32c68",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "04",
+          "textLines": [
+            "04"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#8e8c8e",
+              "fontSize": 1668.1639306757486,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#8e8c8e",
+              "fontSize": 1668.1639306757486,
+              "fontFamily": "wryh",
+              "width": 36,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            }
+          },
+          "fontSize": 1668.1639306757486,
+          "minSize": 1668.1639306757486,
+          "maxSize": 1668.1639306757486,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#d32c68\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 2,
+                "width": 2001.7967168108985
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 19
+      },
+      "#5a76cf": {
+        "key": "#5a76cf",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_41lgCxdfxG",
+          "config": {
+            "isStraight": true,
+            "width": 5762.513443065917,
+            "height": 3241.41381172458,
+            "translate": {
+              "x": 23068.90148159204,
+              "y": -5976.72448398729,
+              "cx": -1055.6809637379083,
+              "cy": -2497.427874935603,
+              "sx": -37909.18851377939,
+              "sy": -3271.3908726556356,
+              "ex": -1055.6809637379083,
+              "ey": -2497.427874935603
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.21511422076358516,
+            "zIndex": 21,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#5a76cf",
+          "effectId": "",
+          "frameNum": "9,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 20
+      },
+      "#16796c": {
+        "key": "#16796c",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_VkZ68b_flf",
+          "config": {
+            "isStraight": true,
+            "width": 144.29101536351246,
+            "height": 81.16369614197576,
+            "translate": {
+              "x": 29389.344726693245,
+              "y": 1209.823181225887,
+              "cx": null,
+              "cy": null,
+              "sx": -24672.749317804697,
+              "sy": 1916.9285238409761,
+              "ex": 614.8391127510877,
+              "ey": 178.54967554489042
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 7.543481471997051,
+            "zIndex": 22,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#16796c",
+          "effectId": "",
+          "frameNum": "7,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 21
+      },
+      "#106d87": {
+        "key": "#106d87",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "text4JmTIZuMxf",
+          "config": {
+            "isStraight": true,
+            "width": 38.969863435164626,
+            "height": 8.009917274935185,
+            "translate": {
+              "x": 29440.765068282417,
+              "y": 1244.3838353078422,
+              "cx": null,
+              "cy": null,
+              "sx": -24672.889540927194,
+              "sy": 1916.9250906561458,
+              "ex": 614.6990089688406,
+              "ey": 178.54628091442055
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 7.219976574296529,
+            "zIndex": 23,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#106d87",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "点击输入文字",
+          "textLines": [
+            "点击输入文字"
+          ],
+          "styles": {
+            "0": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "1": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "2": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "3": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "4": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            },
+            "5": {
+              "fill": "#ffffff",
+              "fontSize": 6.1107089372407595,
+              "fontFamily": "wryh",
+              "width": 12,
+              "fontStyle": "",
+              "fontWeight": "normal",
+              "textDecoration": ""
+            }
+          },
+          "fontSize": 6.1107089372407595,
+          "minSize": 6.1107089372407595,
+          "maxSize": 6.1107089372407595,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#106d87\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 6,
+                "width": 36.66425362344456
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 22
+      },
+      "#5bfc9b": {
+        "key": "#5bfc9b",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_VJGacJNxG",
+          "config": {
+            "isStraight": true,
+            "width": 253.13180895612012,
+            "height": 142.38664253781755,
+            "translate": {
+              "x": 29432.97315802194,
+              "y": -4425.803672831409
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 24,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#5bfc9b",
+          "effectId": "",
+          "frameNum": "5,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(0,128,237)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 23
+      },
+      "#f85c54": {
+        "key": "#f85c54",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "textNkW5U9PGlG",
+          "config": {
+            "isStraight": true,
+            "width": 3293.551384048531,
+            "height": 959.3778924060045,
+            "translate": {
+              "x": 37465.23212047573,
+              "y": -1061.0532040155022,
+              "sx": 63939.49031418035,
+              "sy": -249.00931314723618,
+              "ex": 65595.29278476654,
+              "ey": 3010.366480494463,
+              "cx": 51644.681079253845,
+              "cy": 12333.919324429397
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 0.038779231206519466,
+            "zIndex": 25,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#f85c54",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "这个不错",
+          "textLines": [
+            "这个不错"
+          ],
+          "styles": {
+            "0": {
+              "fill": "",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "wryh",
+              "width": 731.9000244140625
+            },
+            "1": {
+              "fill": "",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "wryh",
+              "width": 731.9000244140625
+            },
+            "2": {
+              "fill": "",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "wryh",
+              "width": 731.9000244140625
+            },
+            "3": {
+              "fill": "",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "wryh",
+              "width": 731.9000244140625
+            },
+            "5": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 404.87335205078125
+            },
+            "6": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 606.4213256835938
+            },
+            "7": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 404.87335205078125
+            },
+            "8": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 161.73605346679688
+            },
+            "9": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 404.87335205078125
+            },
+            "10": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 202.25894165039062
+            },
+            "11": {
+              "fill": "#ce0506",
+              "fontSize": 731.9025727845627,
+              "fontFamily": "arial",
+              "width": 404.87335205078125
+            },
+            "12": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#f85c54\"][\"value\"][\"styles\"][\"11\"]"
+            },
+            "13": {
+              "$ref": "$[\"commonElements\"][\"items\"][\"#f85c54\"][\"value\"][\"styles\"][\"11\"]"
+            }
+          },
+          "fontSize": 731.9025727845627,
+          "minSize": 731.9025727845627,
+          "maxSize": 731.9025727845627,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#f85c54\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 4,
+                "width": 2927.60009765625
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 24
+      },
+      "#d25a94": {
+        "key": "#d25a94",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "text4yt65J4xf",
+          "config": {
+            "isStraight": true,
+            "width": 62.31524737560989,
+            "height": 25.13317731075368,
+            "translate": {
+              "x": 29528.695891937194,
+              "y": -4361.975768342877
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 6.696116141056869,
+            "zIndex": 25,
+            "type": "text"
+          },
+          "context": null,
+          "colorKey": "#d25a94",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "isModifyFont": false,
+          "charCodeNum": 256,
+          "text": "如果做一个没有的欧新黔 ",
+          "textLines": [
+            "如果做一个没",
+            "有的欧新黔 "
+          ],
+          "styles": {
+            "0": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "1": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "2": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "3": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "4": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "5": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "6": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "7": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "8": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "9": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "10": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 12
+            },
+            "11": {
+              "fill": "",
+              "fontSize": 9.586961134709217,
+              "fontFamily": "wryh",
+              "width": 3.9959869384765625
+            }
+          },
+          "fontSize": 9.586961134709217,
+          "minSize": 9.586961134709217,
+          "maxSize": 9.586961134709217,
+          "fontWeight": "normal",
+          "textDecoration": "",
+          "fontStyle": "",
+          "fill": "rgb(0,0,0)",
+          "fontSizeFraction": 0.25,
+          "fontSizeMult": 1.13,
+          "textAlign": "left",
+          "lineHeight": 1.16,
+          "lineWidths": {},
+          "lineHeights": {},
+          "changeScale": 1,
+          "isVertical": false,
+          "renderCache": [
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#d25a94\"][\"value\"][\"styles\"][\"0\"]"
+                },
+                "charLength": 6,
+                "width": 57.52176680825529
+              }
+            ],
+            [
+              {
+                "style": {
+                  "$ref": "$[\"commonElements\"][\"items\"][\"#d25a94\"][\"value\"][\"styles\"][\"6\"]"
+                },
+                "charLength": 6,
+                "width": 51.12725329637779
+              }
+            ]
+          ],
+          "fixedWidth": true,
+          "fontFamily": "wryh",
+          "typeName": "DtoText",
+          "hyperlink": null
+        },
+        "index": 25
+      },
+      "#0f8704": {
+        "key": "#0f8704",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_NyKS3gbaQ",
+          "config": {
+            "isStraight": true,
+            "width": 2527.5411848766266,
+            "height": 1421.741916493102,
+            "translate": {
+              "x": 33958.43253256169,
+              "y": 3162.744031987824
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 26,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#0f8704",
+          "effectId": "",
+          "frameNum": "2,11,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 0,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": false,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoDashRectangle",
+          "hyperlink": null
+        },
+        "index": 26
+      },
+      "#a772e8": {
+        "key": "#a772e8",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "V11R3lWpQ",
+          "config": {
+            "isStraight": true,
+            "width": 712.9623845591136,
+            "height": 712.9623845591136,
+            "translate": {
+              "x": 35178.870370220444,
+              "y": 3708.004647564193
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 27,
+            "type": "image",
+            "horMirrorState": false,
+            "verMirrorState": false
+          },
+          "context": null,
+          "colorKey": "#a772e8",
+          "effectId": "",
+          "frameNum": "",
+          "isDraw": true,
+          "currentColor": "#272636",
+          "src": "work/image/svg_V11R3lWpQ.svg",
+          "typeName": "DtoImage",
+          "hyperlink": null
+        },
+        "index": 27
+      },
+      "#47a667": {
+        "key": "#47a667",
+        "value": {
+          "effectGlobalAlpha": 1,
+          "id": "t_4yzJagWpQ",
+          "config": {
+            "isStraight": true,
+            "width": 596.4698961796669,
+            "height": 596.4698961796669,
+            "translate": {
+              "x": 34715.202551910166,
+              "y": 3626.0799933164167,
+              "sx": 35013.4375,
+              "sy": 3924.31494140625
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1,
+            "zIndex": 28,
+            "type": "shape"
+          },
+          "context": null,
+          "colorKey": "#47a667",
+          "effectId": "",
+          "frameNum": "3,",
+          "isDraw": true,
+          "shapeParameter": {
+            "lineWidth": 19.893281410338542,
+            "isStroke": true,
+            "isFill": false,
+            "fillStyle": "rgb(179,179,179)",
+            "strokeStyle": "rgb(179,179,179)",
+            "lineWidthScale": 40,
+            "isAutiClockwise": false,
+            "computeLineWidth": true,
+            "alpha": 1,
+            "lineDash": [
+              10,
+              15
+            ]
+          },
+          "typeName": "DtoCircle",
+          "hyperlink": null
+        },
+        "index": 28
+      }
+    },
+    "itemList": [
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#d0b790\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#8c628c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#ab36a3\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#ee89bc\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#d79ba2\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#19fec8\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#4ab5ff\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#400b84\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#b8026d\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#3a252d\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#77d21c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#3839c0\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#76db3b\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#ed263e\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#9422ba\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#bca7d2\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#334cc0\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#f0a2d3\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#fb5723\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#d32c68\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#5a76cf\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#16796c\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#106d87\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#5bfc9b\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#f85c54\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#d25a94\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#0f8704\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#a772e8\"][\"value\"]"
+      },
+      {
+        "$ref": "$[\"commonElements\"][\"items\"][\"#47a667\"][\"value\"]"
+      }
+    ]
+  },
+  "combinations": {
+    "items": []
+  },
+  "musics": {
+    "items": []
+  },
+  "initData": null,
+  "initMusicData": {
+    "items": []
+  },
+  "fontsUsed": {
+    "items": {
+      "wryh": {
+        "key": "wryh",
+        "value": "wryh",
+        "index": 0
+      }
+    },
+    "itemList": [
+      "wryh"
+    ]
+  },
+  "textsUsed": {
+    "items": {
+      "wryh": {
+        "key": "wryh",
+        "value": "LOGIC\nDIAGRAM01020304点击输入文字这个不错如果做一个没有的欧新黔 ",
+        "index": 0
+      }
+    },
+    "itemList": [
+      "LOGIC\nDIAGRAM01020304点击输入文字这个不错如果做一个没有的欧新黔 "
+    ]
+  },
+  "saveDate": "Thu Oct 19 2017 10:37:45 GMT+0800 (中国标准时间)",
+  "scale": 1.3340677568308559,
+  "framePath": "work/frame/4J8ZhjxWa7/",
+  "rotateDeg": 0,
+  "logo": {
+    "left": "1%",
+    "width": 125,
+    "height": 44,
+    "top": "91.49%",
+    "src": "resources/img/logo1-06.svg"
+  },
+  "background": {
+    "bgImageEl": "img{textContent:}",
+    "gifBgImageEl": "img{textContent:}",
+    "bgColor": "#cd2026",
+    "bgImage": "work/image/bgImage_N1FmKDfgf.jpg",
+    "gifBgImage": "",
+    "bgImageW": 1600,
+    "bgImageH": 899,
+    "preColor": "rgb(255,255,255)"
+  },
+  "theme": {
+    "bgColor": "rgb(255,255,255)",
+    "shapeColor": "rgb(0,128,237)",
+    "circleColor": "rgb(0,102,204)",
+    "dashRectangleColor": "rgb(179,179,179)",
+    "squareBracketsColor": "rgb(0,102,204)",
+    "textColor": "rgb(0,0,0)",
+    "textFontFamily": "wryh"
+  },
+  "threeDBkGround": {
+    "scaleLevels": {
+      "items": []
+    },
+    "images": {
+      "items": {},
+      "itemList": []
+    }
+  },
+  "initForm": {
+    "a": 1.334067474039236,
+    "b": 0,
+    "c": 0,
+    "d": 1.334067474039236,
+    "e": -45985.28810079352,
+    "f": -4739.301245775945
+  },
+  "frames": {
+    "intervalId": 0,
+    "loopId": 0,
+    "autoPlayTime": 0,
+    "playRatio": "off",
+    "currentFrameNum": 0,
+    "currentEffectNum": -1,
+    "isLastNext": true,
+    "isGoFrame": false,
+    "initData": null,
+    "frames": {
+      "items": [
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_1",
+            "frameId": "frame_1",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_1",
+          "order": 0,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#400b84\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_10",
+            "frameId": "frame_10",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_10",
+          "order": 1,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#0f8704\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_11",
+            "frameId": "frame_11",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_11",
+          "order": 2,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#47a667\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_2",
+            "frameId": "frame_2",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_2",
+          "order": 3,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#9422ba\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_9",
+            "frameId": "frame_9",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_9",
+          "order": 4,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#5bfc9b\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_3",
+            "frameId": "frame_3",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_3",
+          "order": 5,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#bca7d2\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_7",
+            "frameId": "frame_7",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_7",
+          "order": 6,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#16796c\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_4",
+            "frameId": "frame_4",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_4",
+          "order": 7,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#334cc0\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_5",
+            "frameId": "frame_5",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_5",
+          "order": 8,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#5a76cf\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_9",
+            "frameId": "frame_9",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_9",
+          "order": 9,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#400b84\"][\"value\"]"
+          }
+        },
+        {
+          "remark": "",
+          "actualDuration": 4,
+          "effectObj": {
+            "id": "effect_frame_9",
+            "frameId": "frame_9",
+            "effectStepList": {
+              "items": []
+            }
+          },
+          "id": "frame_9",
+          "order": 10,
+          "clipImage": null,
+          "element": {
+            "$ref": "$[\"commonElements\"][\"items\"][\"#0f8704\"][\"value\"]"
+          }
+        }
+      ]
+    }
+  },
+  "slideRatio": "16:9"
+}

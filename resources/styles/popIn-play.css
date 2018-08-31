@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*====================弹框在播放页的样式======================*/
+.pop-up{
+    position:absolute;
+    left:50%;
+    top:50%;
+    z-index:2000;
+    background-color:#f8f8f8;
+}
+.pop-btn{
+    width:130px;+
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    margin-top:19px;
+    border:0;
+    background-color:#0080ed;
+    color:#fff;
+    font-size:12px;
+    margin-left:2px;
+    margin-right:8px;
+    float:left;
+    padding: 0;
+    box-sizing:border-box;
+}
+.cancal-btn{
+    width:82px;
+    background-color:#dbdde0;
+    color:#545455;
+    margin-right:0;
+}
+.btn-cover{
+    width:144px;
+}
+.btn-bottom-cover{
+    width:100px;
+}
+.pop-header-common{
+    padding-top:20px;
+    padding-bottom:14px;
+    margin: 0 auto;
+}
+/*=============底部按钮划过=========================*/
+.save-double:hover{
+    background-color:#007be3;
+}
+.not-save:hover{
+    background-color:#d5d6d9;
+}
+.save-hide:hover{
+    background-color:#d5d6d9;
+}
+.btn-cover:hover{
+    background-color:#007be3;
+}
+.btn-bottom-cover:hover{
+    background-color:#d5d6d9;
+}
+/*========================通用提示框===============================*/
+.information{
+    width:436px;
+    height:190px;
+    margin-top:-95px;
+    margin-left:-218px;
+}
+.information-header p,
+.information-header span{
+    text-align:center;
+}
+.information-content{
+    height:130px;
+    padding-top:0;
+}
+.information-content .information-text{
+    text-align:center;
+    padding-top: 50px;
+    padding-left: 26px;
+    padding-right:26px;
+}
+.information-content .information-text span{
+    color:#7c7f84;
+}
+.information-content .information-text b{
+    margin-left: 10px;
+    vertical-align: middle;
+    font-weight:normal;
+    color:#333333;
+}
+.pop-new{
+    height:139px;
+    width:305px;
+}
+.pop-new .area-new p{
+    margin-left:-13px;
+}
+.save-header,.save-content,.save-btn{
+    width:386px;
+}
+.information .information-content{
+    height:130px;
+    padding-top:0;
+}
+.save-header,.end-header,.file-header{
+    height:51px;
+    border-bottom:1px solid #dfdfdf;
+    box-sizing: border-box;
+}
+.save-header p{
+    float:left;
+    display:block;
+    text-align:center;
+    color:#333;
+}
+.save-header span{
+    float:right;
+    text-align:center;
+    color:#afafaf;
+    text-shadow: 0 1px 0 #fff;
+    font-weight:700;
+    cursor:pointer;
+    width: 26px;
+    height:26px;
+    line-height: 26px;
+    margin-top: -2px;
+    margin-right: -7px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.save-header span:hover {
+    background-color: #dfdfdf;
+}
+
+.information-content span{
+    text-align:center;
+    vertical-align: middle;
+}
+.end-content span{
+    margin-left:24px;
+    float:left;
+    line-height:136px;
+}
+.end-wrap{
+    position:relative;
+    display:table;
+    width:281px;
+    height:136px;
+    margin-left:30px;
+    float:left;
+}
+.area-width{
+    vertical-align:middle;
+    display:table-cell;
+    top:50%;
+}
+.area-text{
+    position:relative;
+}
+.area-text p{
+    line-height:20px;
+    margin-left:0;
+}
+.end-btn,.file-btn{
+    padding-left:128px;
+}
+.pop-new{
+    height:139px;
+    /*width:305px;*/
+}
+.pop-new .area-new p{
+    margin-left:-13px;
+}
+/*=================排练结束=========================*/
+.save-change{
+    width:436px;
+    height:248px;
+    background-color:#f8f8f8;
+    margin-top:-124px;
+    margin-left:-218px;
+}
+.save-content,.end-content{
+      height:136px;
+      padding-top:4px;
+  }
+.save-content,.end-content span{
+    color:#7c7f84;
+}
+.save-btn{
+    height:70px;
+}
+
+.mycontrols{
+    top: 0;
+    left: 0;
+}
+

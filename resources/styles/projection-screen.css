@@ -1,0 +1,872 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-size: 63%;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.projection-screen {
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.screen-content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*====================屏幕头部=======================*/
+.screen-title {
+    height: 49px;
+    width: 100%;
+    line-height: 49px;
+    padding-left: 2px;
+}
+
+.screen-title span {
+    color: #acacac;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.screen-title span {
+    margin-right: 40px;
+}
+
+/*====================分屏内容=======================*/
+
+.split-screen {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.main-screen {
+    width: 76%;
+    box-sizing: border-box;
+    min-height: 602px;
+}
+
+.second-screen {
+    width: 21%;
+    margin-left: 7px;
+}
+
+.screen-line {
+    width: 1px;
+    height: inherit;
+    display: inline-block;
+    background-color: #1d1d1d;
+    padding: 0;
+    margin-right: 14px;
+    box-shadow: 1px 0 1px #484848;
+}
+
+.main-screen-title {
+    height: 30px;
+    color: #acacac;
+    position: relative;
+    top: -4px;
+    width: 96%;
+}
+
+.show-remark {
+    width: 96%;
+    float: right;
+    margin-right: -2px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main-screen {
+        width: 77%;
+        box-sizing: border-box;
+    }
+
+    .second-screen {
+        width: 21%;
+        margin-left: 0;
+    }
+
+    .screen-line {
+        width: 1px;
+        height: inherit;
+        display: inline-block;
+        background-color: #1d1d1d;
+        padding: 0;
+        margin: -15px 0 0 7px;
+        box-shadow: 1px 0 1px #484848;
+    }
+
+    .main-screen-title {
+        height: 30px;
+        color: #acacac;
+        position: relative;
+        top: -4px;
+        width: 100%;
+    }
+
+    .show-remark {
+        width: 99%;
+        float: right;
+        margin-right: -8px;
+    }
+}
+
+.main-screen-title span{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+.voice-dot {
+    display: inline-block;
+    border-left: 1px solid #000;
+    height: 21px;
+    padding-left: 11px;
+    width: 190px;
+    cursor:pointer;
+}
+
+.voice-dot .alpha-progess-bar {
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.voice-dot:hover .alpha-progess-bar{
+    opacity: 1;
+}
+
+.alpha-progess-bar.bg_none {
+    background-color: transparent;
+    border: none;
+}
+
+.alpha-progess-bar.position {
+    left: 19px;
+    top: -20px;
+}
+.alpha-schedule {
+    position: absolute;
+    top: -10px;
+    left: 23px;
+    width: 140px;
+}
+
+#opacity_bt {
+    top: -3px;
+    background-color: #999;
+    -webkit-box-shadow: 1px 2px 6px #333;
+    box-shadow: 1px 2px 6px #333;
+}
+
+.transcribe-back {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+}
+
+.main-screen-text {
+   position: relative;
+    overflow: hidden;
+}
+
+.width16-9 {
+    /*width: 916px;*/
+    /*height: 515px;*/
+    width: 835px;
+    height: 472px;
+}
+
+.main-screen-text canvas {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.small-cont,
+.small-cont img {
+    display: block;
+    width: 226px;
+    height: 166px;
+}
+
+.second-screen span {
+    color: #acacac;
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+}
+
+.small-screen {
+   width: 83%;
+   margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+/*=====================分屏页的备注======================*/
+
+
+.remark-cont {
+    height: 333px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.remark-cont > textarea {
+    display: block;
+    width: 222px;
+    border: none;
+    height: inherit;
+    background-color: #2c2c2c;
+    resize: none;
+    overflow-x:hidden ;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main-screen-edit {
+    position: absolute;
+    bottom: 58px;
+}
+
+.main-screen-edit ul li {
+    float: left;
+    margin-right: 36px;
+    z-index:9999
+}
+
+.main-screen-edit-dot {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.main-screen-edit-dot i:hover{
+    color: #007be3;
+}
+
+.voice-size {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+
+.transpositional-dot {
+    top: -182px;
+    left: 0;
+    width: 155px;
+    height: 170px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    outline:none;
+}
+
+.transpositional-dot ol {
+    height: inherit;
+    width: inherit;
+}
+
+.transpositional-dot ol li {
+    text-indent: 15px;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 153px;
+    margin-right: 0px;
+}
+
+.transpositional-dot ol li a b {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.transpositional-dot ol li a{
+    display: block;
+    padding: 8px 0 9px 0;
+    box-sizing: border-box;
+}
+
+.transpositional-dot ol li a:hover{
+    background-color: #e8e8e8;
+}
+
+.transpositional-dot ol li a.active {
+   background-color: #d6d6d6;
+    box-shadow:0 0 1px #666;
+}
+
+.transpositional-dot ol.disabled li:nth-child(4) a,
+.transpositional-dot ol.disabled li:nth-child(5) a{
+    color: #ccc;
+    cursor: default;
+}
+
+.transpositional-dot ol.disabled li:nth-child(4) a:hover,
+.transpositional-dot ol.disabled li:nth-child(5) a:hover {
+    background-color: transparent;
+}
+
+.common-size-dot {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.edit-screen-color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000000;
+    vertical-align: middle;
+}
+
+.transpositional-dot ol li a span {
+    float: right;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.edit-screen-color-dot {
+    width: 0;
+    height: 0;
+    border: 4px solid #000000;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.screen-color-list {
+    padding: 8px 10px;
+    background-color: #fff;
+    right: -286px;
+    top: 1px;
+    -webkit-transform:scale(1,0);
+    border: 1px solid #cecece;
+    transition: all 0.1s, linear 0.1s;
+    -webkit-transition: all 0.1s, linear 0.1s;
+}
+
+
+.screen-color-list dd {
+    float: left;
+    margin: 0 5px;
+
+}
+
+.transpositional-dot ol li dl.screen-color-list dd a {
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #333333;
+}
+
+.transpositional-dot ol li:nth-child(3):hover dl.screen-color-list {
+    -webkit-transform:scale(1,1);
+}
+
+/*=======================屏幕底部========================*/
+
+.warp-footer {
+    width: inherit;
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+}
+
+.screen-footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paging-dot {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.paging-number {
+    display: inline-block;
+    color: #a6a6a6;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    vertical-align: -4px;
+}
+
+.paging-number span b {
+    font-weight: normal;
+}
+
+/*=====================================================分屏缩略图展示===========================================*/
+
+.split-screen-list {
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.screen-list-content {
+    padding-left: 40px;
+}
+
+.screen-list-back {
+    height: 50px;
+    margin-left: 6px;
+}
+
+.screen-list-back img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 16px;
+}
+
+.screen-list-col {
+    height: 465px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.screen-list-col ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.screen-list-col ul li a {
+    display: inline-block;
+    width: 226px;
+    height: 166px;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+}
+
+.screen-list-col ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.screen-list-col ul li a.active,
+.screen-list-col ul li a:hover {
+    border: 2px solid #039be5;
+}
+
+
+
+.screen-list-col ul li p {
+    color: #a6a6a6;
+    font-size: 14px;
+    text-indent: 5px;
+}
+
+
+[class^="hvr-"] {
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    margin: .4em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.hvr-border-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.change-scale {
+    color: #acacac;
+    margin-right: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.change-scale span {
+    float: left;
+    margin-right: 15px;
+}
+
+.shrink {
+    width: 11px;
+    height: 0px;
+    cursor: pointer;
+    border: 1px solid #acacac;
+    background-color: #acacac;
+    margin-top: 12px;
+}
+
+.scale-line {
+    width: 121px;
+    height: 2px;
+    background-color: #acacac;
+    top: 12px;
+}
+
+.scale-line s {
+    display: block;
+    width: 3px;
+    height: 17px;
+    background-color: #acacac;
+    left: 50%;
+    margin-left: -2px;
+    top: -7px;
+    cursor: pointer;
+}
+
+.magnify {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mouse-big {
+    cursor: url("../img/big.cur"),pointer;
+}
+
+.mouse-small {
+    cursor: url("../img/small.cur"),pointer;
+}
+
+.mouse-hide {
+    cursor:none;
+}
+.cursor-drag {
+    cursor: url("../img/cursor-drag.cur"),pointer;
+}
+
+.pen {
+    cursor: url("../img/pen.cur") 0 15,pointer;
+}
+
+.eraser {
+    cursor: url("../img/eraser.cur") 8 8,pointer;
+}
+
+
+/*=========================分界线的阴影颜色======================*/
+
+.hvr-shadow-radial,
+.hvliner-shadow-radial {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+.hvliner-shadow-radial {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+ .hvr-shadow-radial:after {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 3px;
+    opacity:1;
+     top: 100%;
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+ .hvliner-shadow-radial:after {
+     pointer-events: none;
+     position: absolute;
+     content: '';
+     right: -3px;
+     height: 100%;
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     width: 3px;
+     opacity:1;
+     top: 0;
+ }
+
+ /*=============激光笔的鼠标样式====================*/
+ .laser {
+     cursor: url("../img/laser.cur") 13 13,pointer;
+ }
+  /*=============刘方方copy的播放器样式slide-view.css====================*/
+ .hyperlink {
+    position: absolute;
+    z-index: 9999;
+    padding: 2px 3px;
+    max-width: 550px;
+    border: 1px solid #cccccc;
+    background-color:#D3D3D3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+ .cursor-pointer {
+    cursor: pointer;
+}
+ /*===========================视频底下进度条展示======================================*/
+.mycontrols {
+    display:table;
+    position: absolute;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20px;
+    background-color: rgba(77, 77, 77, 0.43);
+    cursor: pointer;
+    z-index: 4;
+    top:0;
+    left:0;
+}
+
+.video-voice {
+    display:table-cell;
+    width: 26px;
+    height: 20px;
+}
+
+.video-voice a b {
+    display: block;
+    width: 11px;
+    height: 12px;
+    z-index:9999;
+    margin-top: -5px;
+    text-align: center;
+    background: url("../img/view-video.svg") no-repeat;
+    position: absolute;
+    bottom: 2px;
+    right:78px;
+}
+
+.video-voice a b.disabled {
+    background: url("../img/not-view-video.svg") no-repeat;
+}
+
+.map-slider-video {
+    width: auto;
+    display: table-cell;
+    height: 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 8px;
+}
+.map-slider-video .drag-line {
+    width: 100%;
+    height: 7px;
+    background: #C3CFD8;
+    margin: 0px auto 0px auto;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.map-slider-video .line {
+    width:0%;
+    height: 7px;
+    background: #21A8E0;
+    border-radius: 1px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.slide-show {
+    width:100%;
+}
+
+.schedule {
+    display:table-cell;
+    width: 73px;
+}
+
+.schedule p {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    cursor: default;
+}
+
+/*============================播放暂停按钮==========================*/
+
+.play-audit{
+    display:table-cell;
+    width: 30px;
+    height: 20px;
+    line-height:20px;
+}
+
+.play-audit a {
+    display:block;
+}
+
+.play-audit a b {
+    display: block;
+    width: 11px;
+    height: 11px;
+    z-index:9999;
+    /*margin: 0 auto;*/
+    margin-top: -5px;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    vertical-align: baseline;
+    background-position: 0% 0%;
+    line-height: normal;
+}
+
+.view-audit {
+    z-index: 100;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,.05);
+}
+
+.play-editAudit {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+/*============播放按钮============*/
+.view-playDot {
+    background: url("../img/view-play.svg") no-repeat;
+}
+/*=============暂停按钮=============*/
+.view-pauseDot {
+    background: url("../img/view-paused.svg") no-repeat;
+}
+
+.view-Videofont {
+    display: block;
+    background-size: 50% 50%;
+    background-position: 50% 50%;
+    height: 52%;
+    width: 16%;
+    margin: 0 auto;
+}
+
+.regulation {
+    width: 131px;
+    margin-left: 8px;
+}
+
+.remark-fontSize {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.remark-sezeSchdule {
+    width: 60px;
+    height: 1px;
+}
+
+.remark-schduleline {
+    top: 5px;
+    left: -21px;
+}
+
+.remark-big {
+    display: inline-block;
+    right: 18px;
+    top: 0px;
+    color: #acacac;
+    border: 1px solid transparent;
+    padding: 3px 3px 1px 3px;
+}
+
+.remark-reduce {
+    display: inline-block;
+    color: #acacac;
+    cursor: pointer;
+    padding: 2px 3px;
+    border: 1px solid transparent;
+}
+
+.remark-big:hover,
+.remark-reduce:hover {
+    background-color: #3c3c3c;
+    border: 1px solid #232323;
+    box-shadow: -1px 1px 3px #2c2c2c;
+}
+
+.remark-audit {
+    left: 50%;
+    top: -3px;
+    width: 3px;
+    margin-left: -1px;
+    height: 8px;
+    background-color: #acacac;
+    -webkit-box-shadow: 1px 2px 2px #666;
+    box-shadow: 1px 2px 7px #666;
+}
+
+/*=================分屏分割线===================*/
+
+.screen-tittleline {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #1d1d1d;
+    box-shadow: 0 1px 1px #484848;
+}

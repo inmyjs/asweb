@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tipper { height: 1px; left: -99999px; position: absolute; pointer-events: none; top: -99999px; width: 1px;z-index:99999;line-height:20px; }
+.tipper .tipper-content {
+    background: linear-gradient(#f2f4f5,#dcdee1);
+    color: #000;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 1px 8px;
+    border: 1px solid #898B8E;
+    position: relative;
+    border-radius: 3px;
+    white-space: nowrap;z-index:99999;
+}
+
+.tipper.top .tipper-content,
+.tipper.bottom .tipper-content,
+.tipper.left .tipper-content,
+.tipper.right .tipper-content {  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);}

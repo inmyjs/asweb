@@ -1,0 +1,831 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.axeslide-player {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.axe-container-body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-overflow-scrolling: touch;
+    background-color: #999;
+}
+
+.axe-container-body div {
+    box-sizing: border-box;
+}
+
+.axeslide-player:before, .axeslide-player:after,
+.axe-container-body:before, .axe-container-body:after,
+.axe-playlist-panel .axe-playlist ul:before,
+.axe-playlist-panel .axe-playlist ul:after,
+.axe-playlist-panel:after, .axe-playlist-panel:before {
+    display: table;
+    content: " ";
+    line-height: 0;
+}
+
+.axeslide-player:after,
+.axe-container-body:after,
+.axe-playlist-panel .axe-playlist ul:after,
+.axe-playlist-panel:after {
+    clear: both;
+}
+
+.axe-doc-viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+
+.axe-container-body .axe-loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.axe-container-body .axe-loading .loading-animate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: -32px;
+    margin-left: -32px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.axe-control-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.axe-control-panel .axe-control-content {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.axe-control-panel .axe-left-control {
+    width: 88px;
+    height: 100%;
+    display: table-cell;
+    position: relative;
+}
+
+.axe-control-panel .axe-middle-control {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.axe-control-panel .axe-right-control {
+    display: table-cell;
+    width: 88px;
+    height: 100%;
+    position: relative;
+}
+
+.axe-progress {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+.axe-progress-content {
+    height: 4px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    background-color: rgba(240, 240, 240, 0.3);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.axe-progress-bar {
+    background-color: #A6303C;
+    opacity: 0.9;
+    width: 0%;
+    height: 4px;
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    border-radius: 4px;
+}
+
+.axe-pre {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 auto;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -90px;
+    width: 88px;
+    z-index: 1;
+}
+
+.axe-next {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 auto;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    margin-top: -90px;
+    right: 0px;
+    width: 88px;
+    z-index: 1;
+
+}
+
+.btn-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.axe-play {
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    left: 64px;
+    height: 44px;
+    width: 44px;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.axe-music {
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    right: 64px;
+    height: 44px;
+    width: 44px;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.axe-warnning {
+    display: none;
+    box-sizing: border-box;
+    width: 96px;
+    height: 96px;
+    padding: 16px;
+    position: absolute;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    margin-top: -48px;
+    margin-left: -48px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.axe-error {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: 9999;
+}
+
+.axe-error > div {
+    background: #f2f2f2;
+    position: relative;
+    margin: 15px auto;
+    margin-top: 30px;
+    padding: 15px 30px;
+    width: 90%;
+    line-height: 24px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.axe-playlist-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    right: -100%;
+    z-index: 999;
+    background-color: #e0e0e0;
+}
+
+.axe-playlist-panel > div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.axe-playlist-panel .axe-playlist-wrap {
+    top: 0;
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #cdcdcd;
+    overflow-x: auto;
+}
+
+.axe-playlist-panel .axe-playlist {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: auto;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.axe-playlist-panel .axe-playlist ul {
+    display: table;
+    table-layout: fixed;
+    width: auto;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 500px;
+}
+
+.axe-playlist-panel .axe-playlist ul li {
+    list-style: none;
+    display: table-cell;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 8px;
+    overflow: hidden;
+    height: auto;
+}
+
+.axe-playlist-panel .axe-playlist ul li a.axe-doc {
+    display: block;
+    background-color: #fefefe;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: normal;
+}
+
+.axe-playlist-panel .axe-playlist ul li a .title {
+    word-break: keep-all;
+    font-size: 16px;
+    color: #ffffff;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.axe-playlist-panel .axe-playlist ul li a .thumb img {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy {
+    display: block;
+    background: transparent;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: normal;
+    height: 88px;
+    top: 50%;
+    margin-left: 30px;
+    margin-top: -44px;
+    vertical-align: middle;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .axe-logo:before, .axe-playlist-panel .axe-playlist ul li .copy .axe-logo:after {
+    display: table;
+    content: " ";
+    line-height: 0;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .axe-logo:after {
+    clear: both;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .axe-logo {
+    display: block;
+    position: relative;
+    height: 88px;
+    width: 500px;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .axe-logo svg {
+    height: 100%;
+    display: inline;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .slogin {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 44px;
+    color: #333;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .more {
+    font-size: 26px;
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.axe-playlist-panel .axe-playlist ul li .copy .more:active,
+.axe-playlist-panel .axe-playlist ul li .copy .more:focus,
+.axe-playlist-panel .axe-playlist ul li .copy .more:hover {
+    color: #41619D;
+}
+
+.axe-playlist-panel .axe-replay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+
+}
+
+.axe-playlist-panel .axe-replay > div.axe-replay-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    height: 100%;
+}
+
+.axe-playlist-panel .axe-replay .axe-replay-btn {
+    position: relative;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid #41619D;
+    background-color: #ffffff;
+    margin: 15px auto;
+    text-align: center;
+    height: 44px;
+    display: block;
+    color: #41619D;
+    padding: 5px 15px;
+    width: 180px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.axe-playlist-panel .axe-replay .axe-replay-btn svg {
+    width: 26px;
+    display: inline-block;
+}
+
+.axe-playlist-panel .axe-replay .axe-replay-btn span {
+    line-height: 44px;
+    vertical-align: text-bottom;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.axe-playlist-panel .axe-replay .axe-replay-btn:active {
+    background-color: #41619D;
+    color: #fff;
+    outline: none;
+}
+
+.axe-playlist-panel .axe-replay .axe-playlist-description {
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.axe-playlist-panel .axe-replay .axe-playlist-footer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #cccccc;
+    font-size: 12px;
+    width: 100%;
+    text-align: right;
+}
+
+.axe-playlist-panel .axe-playlist-wrap {
+    height: 180px;
+}
+
+.axe-playlist-panel .axe-replay {
+    top: 180px;
+}
+
+.axe-playlist-panel .axe-playlist ul li a.axe-doc {
+    width: 240px;
+    height: 170px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-sizing: border-box;
+}
+
+.axe-playlist-panel .axe-playlist ul li a .thumb {
+    width: 100%;
+    height: 100%;
+}
+
+.axe-playlist-panel .axe-replay .axe-playlist-footer {
+    display: none;
+}
+
+@media screen and (min-height: 300px) {
+    .axe-playlist-panel .axe-playlist-wrap {
+        height: 220px;
+    }
+
+    .axe-playlist-panel .axe-replay {
+        top: 220px;
+    }
+
+    .axe-playlist-panel .axe-playlist ul li a.axe-doc {
+        width: 350px;
+        height: 210px;
+    }
+
+    .axe-playlist-panel .axe-replay .axe-playlist-footer {
+        display: none;
+    }
+
+}
+
+@media screen and (min-height: 480px) {
+    .axe-playlist-panel .axe-playlist-wrap {
+        height: 220px;
+    }
+
+    .axe-playlist-panel .axe-replay {
+        top: 220px;
+    }
+
+    .axe-playlist-panel .axe-playlist ul li a.axe-doc {
+        width: 280px;
+        height: 210px;
+    }
+
+    .axe-playlist-panel .axe-replay .axe-playlist-footer {
+        display: block;
+    }
+}
+
+@media (min-height: 640px) {
+    .axe-playlist-panel .axe-playlist-wrap {
+        height: 400px;
+    }
+
+    .axe-playlist-panel .axe-replay {
+        top: 400px;
+    }
+
+    .axe-playlist-panel .axe-playlist ul li a.axe-doc {
+        width: 600px;
+        height: 390px;
+    }
+
+    .axe-playlist-panel .axe-replay .axe-replay-btn {
+        top: 30px;
+    }
+
+    .axe-playlist-panel .axe-replay .axe-playlist-footer {
+        display: block;
+    }
+}
+
+@media (min-height: 1024px) {
+    .axe-playlist-panel .axe-playlist-wrap {
+        height: 480px;
+    }
+
+    .axe-playlist-panel .axe-replay {
+        top: 480px;
+    }
+
+    .axe-playlist-panel .axe-playlist ul li a.axe-doc {
+        width: 680px;
+        height: 470px;
+    }
+
+    .axe-playlist-panel .axe-replay .axe-playlist-footer {
+        display: block;
+    }
+}
+
+.axe-container-body .axe-debug-info {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.axe-container-body .axe-debug-info p {
+    padding: 0 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: normal;
+    color: #00B7FF;
+}
+
+.axe-container-body.is-load-fail .axe-error {
+    display: block;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.axe-container-body:not(.is-load-fail) .axe-error {
+    display: none;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.axe-container-body.is-load-fail.is-wx .popup-hint {
+  display:block;
+}
+
+.axe-container-body.is-show-playlist .axe-playlist-panel {
+    opacity: 1;
+    right: 0;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+.axe-container-body:not(.is-show-playlist) .axe-playlist-panel {
+    right: -100%;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+.axe-container-body.is-ready .axe-musk {
+    display: none;
+}
+
+.axe-container-body.is-landscape .axe-warnning {
+    display: none;
+}
+
+.axe-container-body.is-portrait.is-warnning .axe-warnning {
+    display: block;
+}
+
+.axe-container-body.is-loading .axe-loading {
+    display: block;
+}
+
+.axe-container-body.is-load-complete .axe-loading {
+    display: none;
+}
+
+/*autplay control*/
+.axe-container-body:not(.is-autoplay) .play, .axe-container-body.is-autoplay .stop {
+    display: block;
+}
+
+.axe-container-body.is-autoplay .play, .axe-container-body:not(.is-autoplay) .stop {
+    display: none;
+}
+
+/*music control*/
+.axe-container-body:not(.has-music) .axe-music {
+    display: none;
+}
+
+.axe-container-body.has-music:not(.is-muted) .music-on, .axe-container-body.has-music.is-muted .music-off {
+    display: block;
+}
+
+.axe-container-body.has-music.is-muted .music-on, .axe-container-body.has-music:not(.is-muted) .music-off {
+    display: none;
+}
+
+.axe-progress {
+    opacity: 1;
+}
+
+.axe-container-body.has-music:not(.is-active) .axe-music {
+    display: block;
+    opacity: 0;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.axe-container-body:not(.is-active) .axe-progress,
+.axe-container-body:not(.is-active) .axe-play {
+    opacity: 0;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.axe-container-body .axe-pre:not(:active),
+.axe-container-body .axe-next:not(:active) {
+    opacity: 0;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.axe-pre:active, .axe-next:active {
+    opacity: 1;
+    transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+}
+
+.axe-pre.active, .axe-next.active {
+    opacity: 1 !important;
+    transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+}
+
+.axe-container-body.is-autoplay .axe-pre,
+.axe-container-body.is-autoplay .axe-next {
+    display: none;
+}
+
+.popup-hint {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 193px;
+  height: 150px;
+  background: url(../img/popup-hint.png) 50% 50% no-repeat;
+  background-size: cover;
+  display:none;
+}
+
+.popup-hint p {
+  position: absolute;
+  top: 69px;
+  left: 20px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-hint p a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.axe-logo svg {
+    width: 88px;
+    height: 88px;
+}
+
+svg #icon-loading path {
+    fill: #41619D;
+}
+
+.axe-loading svg path,
+.axe-loading svg rect {
+    fill: #41619D;
+}
+
+.axe-replay-btn svg path {
+    fill: #41619D
+}
+
+.axe-replay-btn:active svg path {
+    fill: #ffffff;
+}
+
+.axe-container-body.is-first svg #icon-pre path:last-child {
+    fill: #fff;
+}
+
+.axe-container-body.is-last svg #icon-next path:last-child {
+    fill: #fff;
+}
+
+.axe-container-body:not(.is-first) svg #icon-pre path:last-child {
+    fill: #fff;
+}
+
+.axe-container-body:not(.is-last) svg #icon-next path:last-child {
+    fill: #fff;
+}
